@@ -2,13 +2,12 @@ import datetime
 from email.message import EmailMessage
 import ssl
 import smtplib
-import gingers
 
 file = open(r'C:\Users\glowi\OneDrive\Documents\Projects\Midnight Sun\Jira Automation\email_log.txt', 'a')
 
 file.write(f'{datetime.datetime.now()} - the script ran \n')
 
-email_sender = 'glowing.prl@gmail.com'
+email_sender = 'accountname@gmail.com'
 email_password = 'isvmggguzupdyalo'
 email_receiver = 'elizabeth.taranen@gmail.com'
 
