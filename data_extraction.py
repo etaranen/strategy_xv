@@ -7,7 +7,7 @@ import csv
 import datetime
 
 user = 'elizabeth.taranen@gmail.com'
-apikey = 'ATATT3xFfGF07bySvo5C3gj6ht7HFTlsOjjppDOLQjRRRLjsX7tbuWAHeLa2xeOhNRMnXEbs69zbuaWozlqtJO7nwGkZXKo55BQ18V-9FkUm5yNLySaHiG0V7LqRiUhY2U_nRSdKDPIGnYLaFOOl2DF6OQzh-MBSYL2DmhFayJQKX78Deo2zAlI=5813759D'
+apikey = 'ATATT3xFfGF0Y2zQE5oOwPXOG_9mJNHbWVKyovpBH_gyOfPh88QaIzo9zC31_BNMgzoCHFZ9PzsfJjI5awsO8AIJZpjwbLbu-l8M1jxhElxQ_nZtxM1OxCRbPguCoJnCB-oJ5uPdMSxAZwgHnivUb7mSx8QgMLL6BSBZx4C1YuSKnASCtscfNVA=16F80ADB'
 server = 'https://uwmidsun.atlassian.net'
 
 
@@ -24,6 +24,7 @@ data = json.loads(response)
 data = data['issues']
 data = pd.json_normalize(data)
 all_data = pd.DataFrame.from_dict(data, orient='columns')
+
 
 automation_data = data[['fields.assignee.displayName', 'fields.created', 'fields.updated', 'id', 'self', 'key', 'fields.parent.id', 'fields.status.name', 'fields.issuetype.name', 'fields.status.statusCategory.id', 'fields.summary', 'fields.description']]
 
