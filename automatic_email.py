@@ -1,3 +1,4 @@
+import os
 import datetime
 from email.message import EmailMessage
 import ssl
@@ -8,7 +9,7 @@ file = open(r'C:\Users\glowi\OneDrive\Documents\Projects\Midnight Sun\Jira Autom
 file.write(f'{datetime.datetime.now()} - the script ran \n')
 
 email_sender = 'accountname@gmail.com'
-email_password = 'isvmggguzupdyalo'
+email_password = os.environ.get('Google_App_Password')
 email_receiver = 'elizabeth.taranen@gmail.com'
 
 subject = 'Email Sender Test'
@@ -25,5 +26,3 @@ context = ssl.create_default_context()
 with smtplib.SMTP_SSL('smtp.gmail.com', 465, context=context) as smtp:
     smtp.login(email_sender, email_password)
     smtp.sendmail(email_sender, email_receiver, em.as_string())
-
-# https://www.youtube.com/watch?v=g_j6ILT-X0k

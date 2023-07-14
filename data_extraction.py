@@ -1,3 +1,4 @@
+import os
 import pandas as pd
 from requests.auth import HTTPBasicAuth
 import requests
@@ -6,8 +7,9 @@ import csv
 
 import datetime
 
+#if there is an error when running - no data or doesnt exist - check your key is correct
 user = 'elizabeth.taranen@gmail.com'
-apikey = 'ATATT3xFfGF0Y2zQE5oOwPXOG_9mJNHbWVKyovpBH_gyOfPh88QaIzo9zC31_BNMgzoCHFZ9PzsfJjI5awsO8AIJZpjwbLbu-l8M1jxhElxQ_nZtxM1OxCRbPguCoJnCB-oJ5uPdMSxAZwgHnivUb7mSx8QgMLL6BSBZx4C1YuSKnASCtscfNVA=16F80ADB'
+apikey = os.environ.get('Atlassian_API_Token')
 server = 'https://uwmidsun.atlassian.net'
 
 
@@ -25,9 +27,7 @@ data = data['issues']
 data = pd.json_normalize(data)
 all_data = pd.DataFrame.from_dict(data, orient='columns')
 
-
 automation_data = data[['fields.assignee.displayName', 'fields.created', 'fields.updated', 'id', 'self', 'key', 'fields.parent.id', 'fields.status.name', 'fields.issuetype.name', 'fields.status.statusCategory.id', 'fields.summary', 'fields.description']]
+automation_data["progress_count"] = 0
 
 automation_data.to_csv(f'{datetime.date.today()}_tickets.csv', index=False)
-#all_data.to_csv('issues.csv', index=False)
-
