@@ -3,16 +3,15 @@ import json
 import csv
 import sqlalchemy
 
+import datetime as dt
+from datetime import datetime
 
-import datetime
-current = datetime.date.today()
-previous = current - datetime.timedelta(days=7)
+current = dt.date.today()
+previous = current - dt.timedelta(days=7)
+stale_date = current - dt.timedelta(days=14)
 
-
-current_data = pd.read_csv('2023-07-08_tickets.csv', encoding='utf-8')
-previous_data = pd.read_csv('2023-07-05_tickets.csv', encoding='utf-8')
-# current_data = pd.read_csv(f'{current}_tickets.csv')
-# previous_data = pd.read_csv(f'{previous}_tickets.csv')
+current_data = pd.read_csv(f'{current}_tickets.csv')
+previous_data = pd.read_csv(f'{previous}_tickets.csv')
 
 
 #temporary unicode error fix - prints to the console but won't be seen if sending an email
@@ -28,37 +27,47 @@ for row in current_data.iterrows():
         current_data['fields.description'] = current_data['fields.description'].str.replace(char, ' ', regex=True)
 
 
-#consecutive weekly progress and overall- who has a streak, whos fastest overall
-#append/edit columns to the end of the csv with this info so we can add streaks from previous csv data
+# consecutive weekly progress and overall count- who has a streak, whos fastest overall
+current_data = current_data.merge(previous_data[['id','progress.count', 'progress.streak']], on='id',  how='left')
+current_data.to_csv(f'{current}_tickets.csv', index= False)
+
+for i in range(len(current_data)):
+
+    #progress count and streak
+    if current_data.loc[i, 'fields.status.name'] == 'In Progress':
+        updated = current_data.loc[i, 'fields.updated']
+        updated = datetime.strptime(updated[:10], '%Y-%m-%d').date()
+        if updated > previous or updated <= current:
+            current_data.loc[i, 'progress.count'] += 1
+            current_data.loc[i, 'progress.streak'] += 1
+        else:
+            current_data.loc[i, 'progress.streak'] = 0
+        
+    
+current_data.to_csv(f'{dt.date.today()}_tickets.csv', index=False)
 
 
-# append last 2 (or 3 if velocity) columns for previous_data (progress_count and progress_streak) to current_data
-# make sure to match up the rows correctly using a join (sql but also exists in pandas)
-current_data = current_data.merge(previous_data[['id','fields.summary', 'fields.description']], on='id',  how='left')
-current_data.to_csv(f'idk whatl happen2.csv', index=False)
+# dataframe of unassigned tickets
+todo_tickets = current_data.loc[current_data['fields.status.name'] == 'To Do']
 
-# go through each row check the following:
-# if the jira has been updated, add 1 to the total count of progress and 1 to the streak
-# if the jira has not been updated and streak != 0, set streak to 0
+# dataframe of stale tickets
+stale_tickets = current_data
+
+for i in range(1, len(current_data)):
+    updated = current_data.loc[i, 'fields.updated']
+    updated = datetime.strptime(updated[:10], '%Y-%m-%d').date()
+    if updated > stale_date:
+        stale_tickets = stale_tickets.drop(labels=i, axis=0)
+
+stale_tickets.to_csv('stale_tickets.csv', index=False)
+
+# dataframe of active tickets
+# inprogress_tickets = current_data.loc[current_data['fields.status.name'] == 'In Progress']
+# inprogress_tickets = inprogress_tickets.loc[inprogress_tickets['fields.issuetype.name'] == 'Subtask']
+
 # velocity could be either from the day the ticket was created (this can be inaccurate as there are many stale tickts with no one assigned)
 # long-term we can track if previous_data['assignee']= None and current_data['assignee']!= None, start count from that week to check velocity
 # for burn down charts we need leads to put an estimated time of completion
 # maybe even start with creating a data frame with active tickets (like the one at the bottom of the page)
 # then you can join each week (data will only be connected if the previous week has data)
 # easy way to track if someone has started a ticket (for velocity - a start date)
-
-
-# for i in range(len(current_data)):
-#     row = current_data.loc[i]
-#     data = row['fields.updated']
-#       OR
-#     data = current_data.loc[i, 'fields.updated'])
-
-
-# dataframe of stale tickets
-todo_tickets = current_data.loc[current_data['fields.status.name'] == 'To Do']
-todo_tickets.to_csv(f'todo_tickets.csv', index=False)
-
-# dataframe of active tickets
-inprogress_tickets = current_data.loc[current_data['fields.status.name'] == 'In Progress']
-inprogress_tickets = inprogress_tickets.loc[inprogress_tickets['fields.issuetype.name'] == 'Subtask']
