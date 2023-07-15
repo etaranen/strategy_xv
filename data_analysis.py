@@ -61,9 +61,11 @@ for i in range(1, len(current_data)):
 
 stale_tickets.to_csv('stale_tickets.csv', index=False)
 
+
 # dataframe of active tickets
 # inprogress_tickets = current_data.loc[current_data['fields.status.name'] == 'In Progress']
 # inprogress_tickets = inprogress_tickets.loc[inprogress_tickets['fields.issuetype.name'] == 'Subtask']
+
 
 # velocity could be either from the day the ticket was created (this can be inaccurate as there are many stale tickts with no one assigned)
 # long-term we can track if previous_data['assignee']= None and current_data['assignee']!= None, start count from that week to check velocity
