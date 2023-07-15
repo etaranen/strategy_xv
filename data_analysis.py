@@ -34,6 +34,9 @@ for row in current_data.iterrows():
 
 # append last 2 (or 3 if velocity) columns for previous_data (progress_count and progress_streak) to current_data
 # make sure to match up the rows correctly using a join (sql but also exists in pandas)
+current_data = current_data.merge(previous_data[['id','fields.summary', 'fields.description']], on='id',  how='left')
+current_data.to_csv(f'idk whatl happen2.csv', index=False)
+
 # go through each row check the following:
 # if the jira has been updated, add 1 to the total count of progress and 1 to the streak
 # if the jira has not been updated and streak != 0, set streak to 0
