@@ -27,6 +27,6 @@ data = data['issues']
 data = pd.json_normalize(data)
 all_data = pd.DataFrame.from_dict(data, orient='columns')
 
-automation_data = data[['fields.assignee.displayName', 'fields.created', 'fields.updated', 'id', 'self', 'key', 'fields.parent.id', 'fields.status.name', 'fields.issuetype.name', 'fields.status.statusCategory.id', 'fields.summary', 'fields.description']]
+automation_data = data[['fields.assignee.displayName', 'fields.created', 'fields.updated', 'id', 'self', 'key', 'fields.parent.id', 'fields.status.name', 'fields.issuetype.name', 'fields.summary', 'fields.description']]
 
 automation_data.to_csv(f'{datetime.date.today()}_tickets.csv', index=False)

@@ -7,7 +7,8 @@ import datetime as dt
 from datetime import datetime
 
 current = dt.date.today()
-previous = current - dt.timedelta(days=7)
+previous = current - dt.timedelta(days=36)
+current = current - dt.timedelta(days=25)
 stale_date = current - dt.timedelta(days=14)
 
 current_data = pd.read_csv(f'{current}_tickets.csv')
@@ -28,23 +29,23 @@ for row in current_data.iterrows():
 
 
 # consecutive weekly progress and overall count- who has a streak, whos fastest overall
-current_data = current_data.merge(previous_data[['id','progress.count', 'progress.streak']], on='id',  how='left')
-current_data.to_csv(f'{current}_tickets.csv', index= False)
+# current_data = current_data.merge(previous_data[['id','progress.count', 'progress.streak']], on='id',  how='left')
+# current_data.to_csv(f'{current}_tickets.csv', index= False)
 
-for i in range(len(current_data)):
+# for i in range(len(current_data)):
 
     #progress count and streak
-    if current_data.loc[i, 'fields.status.name'] == 'In Progress':
-        updated = current_data.loc[i, 'fields.updated']
-        updated = datetime.strptime(updated[:10], '%Y-%m-%d').date()
-        if updated > previous or updated <= current:
-            current_data.loc[i, 'progress.count'] += 1
-            current_data.loc[i, 'progress.streak'] += 1
-        else:
-            current_data.loc[i, 'progress.streak'] = 0
+#     if current_data.loc[i, 'fields.status.name'] == 'In Progress':
+#         updated = current_data.loc[i, 'fields.updated']
+#         updated = datetime.strptime(updated[:10], '%Y-%m-%d').date()
+#         if updated > previous or updated <= current:
+#             current_data.loc[i, 'progress.count'] += 1
+#             current_data.loc[i, 'progress.streak'] += 1
+#         else:
+#             current_data.loc[i, 'progress.streak'] = 0
         
     
-current_data.to_csv(f'{dt.date.today()}_tickets.csv', index=False)
+# current_data.to_csv(f'{dt.date.today()}_tickets.csv', index=False)
 
 
 # dataframe of unassigned tickets
@@ -59,8 +60,23 @@ for i in range(1, len(current_data)):
     if updated > stale_date:
         stale_tickets = stale_tickets.drop(labels=i, axis=0)
 
+
+stale_tickets = stale_tickets.rename(columns={'fields.assignee.displayName':'Name', 'fields.created': 'Created', 'fields.updated': 'Updated', 'id': 'ID', 'self': 'Link', 'key': 'Key', 'fields.parent.id' : 'Parent ID', 'fields.status.name' : 'Status', 'fields.issuetype.name' : 'Issue Type', 'fields.summary' : 'Summary', 'fields.description' : 'Description'})
 stale_tickets.to_csv('stale_tickets.csv', index=False)
 
+
+import pandas as pd
+from datetime import datetime, timedelta
+
+df = pd.read_csv('2023-07-15_tickets.csv')  
+unique_names = df['fields.assignee.displayName'].unique().tolist()
+df['fields.updated'] = pd.to_datetime(df['fields.updated'])
+current = dt.datetime.now()
+three_weeks_ago = current - timedelta(weeks=3)
+# inactive_members = df[df['fields.updated'] < three_weeks_ago]
+# inactive_names = inactive_members['fields.assignee.displayName'].unique().tolist()
+print(three_weeks_ago)
+print(df['fields.updated'])
 
 # dataframe of active tickets
 # inprogress_tickets = current_data.loc[current_data['fields.status.name'] == 'In Progress']
