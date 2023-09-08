@@ -51,6 +51,11 @@ for row in current_data.iterrows():
 # dataframe of unassigned tickets
 todo_tickets = current_data.loc[current_data['fields.status.name'] == 'To Do']
 
+current_data['fields.created'] = pd.to_datetime(current_data['fields.created'], format='%Y-%m-%dT%H:%M:%S.%f%z', utc=True)
+current_data['fields.created'] = pd.to_datetime(current_data['fields.created']).dt.strftime('%Y-%m-%d')
+
+current_data['fields.updated'] = pd.to_datetime(current_data['fields.updated'], format='%Y-%m-%dT%H:%M:%S.%f%z', utc=True)
+current_data['fields.updated'] = pd.to_datetime(current_data['fields.updated']).dt.strftime('%Y-%m-%d')
 # dataframe of stale tickets
 stale_tickets = current_data
 
@@ -59,6 +64,7 @@ for i in range(1, len(current_data)):
     updated = datetime.strptime(updated[:10], '%Y-%m-%d').date()
     if updated > stale_date:
         stale_tickets = stale_tickets.drop(labels=i, axis=0)
+
 
 
 stale_tickets = stale_tickets.rename(columns={'fields.assignee.displayName':'Name', 'fields.created': 'Created', 'fields.updated': 'Updated', 'id': 'ID', 'self': 'Link', 'key': 'Key', 'fields.parent.id' : 'Parent ID', 'fields.status.name' : 'Status', 'fields.issuetype.name' : 'Issue Type', 'fields.summary' : 'Summary', 'fields.description' : 'Description'})

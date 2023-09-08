@@ -29,4 +29,10 @@ all_data = pd.DataFrame.from_dict(data, orient='columns')
 
 automation_data = data[['fields.assignee.displayName', 'fields.created', 'fields.updated', 'id', 'self', 'key', 'fields.parent.id', 'fields.status.name', 'fields.issuetype.name', 'fields.summary', 'fields.description']]
 
+for i in range(len(automation_data)):
+    self = automation_data.loc[i, 'self']
+    key = automation_data.loc[i, 'key']
+    link = f'https://uwmidsun.atlassian.net/browse/{key}'
+    automation_data.replace(self, link, inplace = True)
+
 automation_data.to_csv(f'{datetime.date.today()}_tickets.csv', index=False)
