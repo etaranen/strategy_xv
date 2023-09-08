@@ -1,0 +1,14 @@
+.nice-table {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #333; /* Set text color */
+    border-collapse: collapse; /* Combine table borders */
+    border: 1px solid #ccc; /* Border color */
+    margin: 20px; /* Add some space around the table */
+    background-color: #f2f2f2; /* Header background color */
+    font-weight: bold;
+    text-align: left;
+    padding: 8px; /* Add some space inside the cells */
+    background-color: #f9f9f9; /* Background color on hover */
+    background-color: #f2f2f2; /* Background color for even rows */
+  }
