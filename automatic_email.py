@@ -1,4 +1,3 @@
-# Your Python code (with corrected indentation)
 import os
 import datetime as dt
 import ssl
@@ -25,6 +24,9 @@ em['Subject'] = subject
 
 inactive_tickets_html = stale_tickets.to_html(index=False, classes="nice-table")
 inactive_tickets_html = inactive_tickets_html.replace('class="dataframe"', 'class="nice-table"')
+
+current_data = current_data.to_html(index=False, classes="nice-table")
+current_data = current_data.replace('class="dataframe"', 'class="nice-table"')
 
 html = """\
 <html>
@@ -63,12 +65,16 @@ html = """\
     <p> Good morning team leads! <br>
        Here is this week's ticket information: <br>
     </p>
+    <br />
+    <p> Inactive Tickets </p>
     {inactive_tickets_html}
+    <br />    
+    <p> Current Data </p>
+    {current_data}
   </body>
 </html>
-""".format(inactive_tickets_html=inactive_tickets_html)
+""".format(inactive_tickets_html=inactive_tickets_html, current_data=current_data)
 
-print(html)
 
 part = MIMEText(html, "html")
 em.attach(part)
