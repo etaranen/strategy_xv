@@ -10,4 +10,4 @@ st.set_page_config(page_title="Jira Automation Dashboard", page_icon=":sun:", la
 st.subheader("Jira Automation")
 
 st.table(current_data)
-st.line_chart(current_data)  
+st.line_chart(current_data)     

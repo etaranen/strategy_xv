@@ -43,7 +43,7 @@ for i in range(len(current_data)):
         else:
             current_data.loc[i, 'Streak'] = 0
 
-#velocity
+# velocity
 # velocity = []
 # for i in range(len(current_data)):
 #     velocity += ((current_data.loc[i, 'Count'])/days)
@@ -85,14 +85,10 @@ three_weeks_ago = current - timedelta(weeks=3)
 # inactive_members = df[df['fields.updated'] < three_weeks_ago]
 # inactive_names = inactive_members['fields.assignee.displayName'].unique().tolist()
 
-# dataframe of active tickets
-# inprogress_tickets = current_data.loc[current_data['fields.status.name'] == 'In Progress']
-# inprogress_tickets = inprogress_tickets.loc[inprogress_tickets['fields.issuetype.name'] == 'Subtask']
+current_data_count = current_data.sort_values(by='Count', ascending=False)
+leaderboard = current_data_count.head(5)
+leaderboard = leaderboard[['fields.assignee.displayName', 'self', 'fields.summary', 'Count', 'Streak']]
+leaderboard = leaderboard.rename(columns={'fields.assignee.displayName':'Name', 'self': 'Link', 'fields.summary' : 'Summary'})
 
+leaderboard.to_csv('leaderboard.csv', index=False)
 
-# velocity could be either from the day the ticket was created (this can be inaccurate as there are many stale tickts with no one assigned)
-# long-term we can track if previous_data['assignee']= None and current_data['assignee']!= None, start count from that week to check velocity
-# for burn down charts we need leads to put an estimated time of completion
-# maybe even start with creating a data frame with active tickets (like the one at the bottom of the page)
-# then you can join each week (data will only be connected if the previous week has data)
-# easy way to track if someone has started a ticket (for velocity - a start date)
