@@ -7,7 +7,7 @@ import datetime as dt
 from datetime import datetime
 
 current = dt.date.today()
-previous = current - dt.timedelta(days=6)
+previous = current - dt.timedelta(days=7)
 stale_date = current - dt.timedelta(days=12)
 
 current_data = pd.read_csv(f'{current}_tickets.csv')
@@ -43,7 +43,11 @@ for i in range(len(current_data)):
         else:
             current_data.loc[i, 'Streak'] = 0
 
-    
+#velocity
+# velocity = []
+# for i in range(len(current_data)):
+#     velocity += ((current_data.loc[i, 'Count'])/days)
+
         
 current_data.to_csv(f'{dt.date.today()}_tickets.csv', index=False)
 

@@ -1,45 +1,45 @@
 fields.assignee.displayName,fields.created,fields.updated,id,self,key,fields.parent.id,fields.status.name,fields.issuetype.name,fields.summary,fields.description,Count,Streak
-Stephanie Li,2023-09-09T12:39:43.718-0700,2023-09-09T12:40:52.872-0700,21125,https://uwmidsun.atlassian.net/browse/STRAT15-210,STRAT15-210,20677.0,To Do,Story,UI Weather Design Component,,,
-Ren Jie Zheng,2023-09-09T12:39:33.281-0700,2023-09-09T12:45:20.546-0700,21124,https://uwmidsun.atlassian.net/browse/STRAT15-209,STRAT15-209,20677.0,To Do,Story,CoreUI Weather Component,"We are seeding weather data into our databases this week. From the fields included inside the schemas, let’s design the display for this data on the dashboard with CoreUI components.
+Stephanie Li,2023-09-09T12:39:43.718-0700,2023-09-09T12:40:52.872-0700,21125,https://uwmidsun.atlassian.net/browse/STRAT15-210,STRAT15-210,20677,To Do,Story,UI Weather Design Component,,0,0
+Ren Jie Zheng,2023-09-09T12:39:33.281-0700,2023-09-09T12:45:20.546-0700,21124,https://uwmidsun.atlassian.net/browse/STRAT15-209,STRAT15-209,20677,To Do,Story,CoreUI Weather Component,"We are seeding weather data into our databases this week. From the fields included inside the schemas, let’s design the display for this data on the dashboard with CoreUI components.
 
 *For this ticket:*
 
 * Scope out important weather-related fields from DB.
 * Communicate with Stephanie with integration into the dashboard.
-* Implement CoreUI weather component. ",,
-Nathaniel Gong Li,2023-09-09T12:26:21.950-0700,2023-09-13T17:59:01.718-0700,21123,https://uwmidsun.atlassian.net/browse/STRAT15-208,STRAT15-208,21004.0,To Do,Story,ETA Partnership,"* Start at looking at, if this were table inside our database, what type of fields would this include?
-* Define env requirements in comments.",,
-,2023-09-09T12:25:01.974-0700,2023-09-09T12:25:02.401-0700,21122,https://uwmidsun.atlassian.net/browse/STRAT15-207,STRAT15-207,21050.0,To Do,Subtask,Prepare a Demo for the Group,,,
-Prabhav Khera,2023-09-09T09:08:57.300-0700,2023-09-09T09:18:16.982-0700,21121,https://uwmidsun.atlassian.net/browse/STRAT15-206,STRAT15-206,20681.0,In Progress,Story,Architecture Diagram,,,
-Ryan Lam,2023-09-09T07:33:44.887-0700,2023-09-09T18:01:07.358-0700,21119,https://uwmidsun.atlassian.net/browse/STRAT15-205,STRAT15-205,20780.0,Done,Story,Two Accounts for Core,,,
-Ryan Lam,2023-09-09T07:23:46.217-0700,2023-09-09T12:07:05.737-0700,21118,https://uwmidsun.atlassian.net/browse/STRAT15-204,STRAT15-204,20998.0,To Do,Story,GraphQL Documentation + Small Demo,,,
-Ryan Lam,2023-09-09T07:21:44.493-0700,2023-09-09T12:07:12.480-0700,21117,https://uwmidsun.atlassian.net/browse/STRAT15-203,STRAT15-203,20998.0,To Do,Story,Deploy Database GraphQL Gateway,,,
-,2023-09-09T07:20:33.471-0700,2023-09-09T07:20:33.832-0700,21116,https://uwmidsun.atlassian.net/browse/STRAT15-202,STRAT15-202,21000.0,To Do,Subtask,The Mongo Demo,,,
-Prabhav Khera,2023-09-09T07:15:31.524-0700,2023-09-09T12:08:10.035-0700,21115,https://uwmidsun.atlassian.net/browse/STRAT15-201,STRAT15-201,20998.0,To Do,Story,Integrate Location Service with The Mongo,Pre-requisite: Set-up and knowledge transfer with location service. ,,
-Ryan Lam,2023-09-09T07:03:04.522-0700,2023-09-09T12:07:29.073-0700,21114,https://uwmidsun.atlassian.net/browse/STRAT15-200,STRAT15-200,20998.0,To Do,Story,Location Service Demo,,,
-Ryan Lam,2023-09-09T06:53:36.392-0700,2023-09-09T06:53:57.493-0700,21113,https://uwmidsun.atlassian.net/browse/STRAT15-199,STRAT15-199,20681.0,To Do,Story,Create Location Service Overview,,,
-Ryan Lam,2023-09-09T06:42:59.852-0700,2023-09-09T06:43:35.443-0700,21112,https://uwmidsun.atlassian.net/browse/STRAT15-198,STRAT15-198,20679.0,To Do,Story,Update Documentation for Route Model,"Please update [https://uwmidsun.atlassian.net/wiki/spaces/S/pages/3144646657/Route+Model+Overview|https://uwmidsun.atlassian.net/wiki/spaces/S/pages/3144646657/Route+Model+Overview|smart-link] (if needed)
+* Implement CoreUI weather component. ",0,0
+Nathaniel Gong Li,2023-09-09T12:26:21.950-0700,2023-09-13T17:59:01.718-0700,21123,https://uwmidsun.atlassian.net/browse/STRAT15-208,STRAT15-208,21004,To Do,Story,ETA Partnership,"* Start at looking at, if this were table inside our database, what type of fields would this include?
+* Define env requirements in comments.",0,0
+,2023-09-09T12:25:01.974-0700,2023-09-09T12:25:02.401-0700,21122,https://uwmidsun.atlassian.net/browse/STRAT15-207,STRAT15-207,21050,To Do,Subtask,Prepare a Demo for the Group,,0,0
+Prabhav Khera,2023-09-09T09:08:57.300-0700,2023-09-09T09:18:16.982-0700,21121,https://uwmidsun.atlassian.net/browse/STRAT15-206,STRAT15-206,20681,In Progress,Story,Architecture Diagram,,0,0
+Ryan Lam,2023-09-09T07:33:44.887-0700,2023-09-09T18:01:07.358-0700,21119,https://uwmidsun.atlassian.net/browse/STRAT15-205,STRAT15-205,20780,Done,Story,Two Accounts for Core,,0,0
+Ryan Lam,2023-09-09T07:23:46.217-0700,2023-09-09T12:07:05.737-0700,21118,https://uwmidsun.atlassian.net/browse/STRAT15-204,STRAT15-204,20998,To Do,Story,GraphQL Documentation + Small Demo,,0,0
+Ryan Lam,2023-09-09T07:21:44.493-0700,2023-09-09T12:07:12.480-0700,21117,https://uwmidsun.atlassian.net/browse/STRAT15-203,STRAT15-203,20998,To Do,Story,Deploy Database GraphQL Gateway,,0,0
+,2023-09-09T07:20:33.471-0700,2023-09-09T07:20:33.832-0700,21116,https://uwmidsun.atlassian.net/browse/STRAT15-202,STRAT15-202,21000,To Do,Subtask,The Mongo Demo,,0,0
+Prabhav Khera,2023-09-09T07:15:31.524-0700,2023-09-09T12:08:10.035-0700,21115,https://uwmidsun.atlassian.net/browse/STRAT15-201,STRAT15-201,20998,To Do,Story,Integrate Location Service with The Mongo,Pre-requisite: Set-up and knowledge transfer with location service. ,0,0
+Ryan Lam,2023-09-09T07:03:04.522-0700,2023-09-09T12:07:29.073-0700,21114,https://uwmidsun.atlassian.net/browse/STRAT15-200,STRAT15-200,20998,To Do,Story,Location Service Demo,,0,0
+Ryan Lam,2023-09-09T06:53:36.392-0700,2023-09-09T06:53:57.493-0700,21113,https://uwmidsun.atlassian.net/browse/STRAT15-199,STRAT15-199,20681,To Do,Story,Create Location Service Overview,,0,0
+Ryan Lam,2023-09-09T06:42:59.852-0700,2023-09-09T06:43:35.443-0700,21112,https://uwmidsun.atlassian.net/browse/STRAT15-198,STRAT15-198,20679,To Do,Story,Update Documentation for Route Model,"Please update [https://uwmidsun.atlassian.net/wiki/spaces/S/pages/3144646657/Route+Model+Overview|https://uwmidsun.atlassian.net/wiki/spaces/S/pages/3144646657/Route+Model+Overview|smart-link] (if needed)
 
 
 
-Include location service docs? ",,
-Rodrigo Tiscareno,2023-09-09T06:41:51.658-0700,2023-09-09T06:42:02.592-0700,21111,https://uwmidsun.atlassian.net/browse/STRAT15-197,STRAT15-197,20780.0,To Do,Story,Document DB Conn Details and Setup,[https://uwmidsun.atlassian.net/wiki/spaces/S/pages/3327131742/DB+Connection+Details|https://uwmidsun.atlassian.net/wiki/spaces/S/pages/3327131742/DB+Connection+Details],,
-Prabhav Khera,2023-09-09T06:40:55.102-0700,2023-09-09T12:08:16.731-0700,21110,https://uwmidsun.atlassian.net/browse/STRAT15-196,STRAT15-196,20681.0,In Progress,Story,Update Victini Core Project Overview,,,
-Rodrigo Tiscareno,2023-09-09T06:40:11.087-0700,2023-09-09T06:40:19.452-0700,21109,https://uwmidsun.atlassian.net/browse/STRAT15-195,STRAT15-195,20681.0,To Do,Story,Dev Env Update,,,
-Rodrigo Tiscareno,2023-09-09T06:39:31.061-0700,2023-09-09T06:39:36.117-0700,21108,https://uwmidsun.atlassian.net/browse/STRAT15-194,STRAT15-194,20681.0,To Do,Story,Update Mandate,,,
-Rodrigo Tiscareno,2023-09-09T05:20:12.323-0700,2023-09-09T07:32:49.546-0700,21107,https://uwmidsun.atlassian.net/browse/STRAT15-193,STRAT15-193,20780.0,To Do,Story,Seed Database with Sample ETA Data,,,
-Kenneth Ruan,2023-09-09T05:20:04.874-0700,2023-09-09T12:09:05.546-0700,21106,https://uwmidsun.atlassian.net/browse/STRAT15-192,STRAT15-192,20780.0,To Do,Story,Seed database with Sample Weather Data,,,
-,2023-09-09T05:15:57.271-0700,2023-09-09T05:15:57.606-0700,21105,https://uwmidsun.atlassian.net/browse/STRAT15-191,STRAT15-191,20681.0,To Do,Story,Microservice Confluence Pages,,,
-,2023-09-09T05:15:39.708-0700,2023-09-09T05:15:40.172-0700,21104,https://uwmidsun.atlassian.net/browse/STRAT15-190,STRAT15-190,20681.0,To Do,Story,Scope Hardware Power Budget with Forest,,,
-Kenneth Ruan,2023-07-01T11:18:32.508-0700,2023-09-09T12:09:08.819-0700,21057,https://uwmidsun.atlassian.net/browse/STRAT15-186,STRAT15-186,20998.0,In Progress,Story,GraphQL Gateway,"[~accountid:612f6e2edae0a20071906f7a] [~accountid:63113f0bea661fd37d4f322a] 
+Include location service docs? ",0,0
+Rodrigo Tiscareno,2023-09-09T06:41:51.658-0700,2023-09-09T06:42:02.592-0700,21111,https://uwmidsun.atlassian.net/browse/STRAT15-197,STRAT15-197,20780,To Do,Story,Document DB Conn Details and Setup,[https://uwmidsun.atlassian.net/wiki/spaces/S/pages/3327131742/DB+Connection+Details|https://uwmidsun.atlassian.net/wiki/spaces/S/pages/3327131742/DB+Connection+Details],0,0
+Prabhav Khera,2023-09-09T06:40:55.102-0700,2023-09-09T12:08:16.731-0700,21110,https://uwmidsun.atlassian.net/browse/STRAT15-196,STRAT15-196,20681,In Progress,Story,Update Victini Core Project Overview,,0,0
+Rodrigo Tiscareno,2023-09-09T06:40:11.087-0700,2023-09-09T06:40:19.452-0700,21109,https://uwmidsun.atlassian.net/browse/STRAT15-195,STRAT15-195,20681,To Do,Story,Dev Env Update,,0,0
+Rodrigo Tiscareno,2023-09-09T06:39:31.061-0700,2023-09-09T06:39:36.117-0700,21108,https://uwmidsun.atlassian.net/browse/STRAT15-194,STRAT15-194,20681,To Do,Story,Update Mandate,,0,0
+Rodrigo Tiscareno,2023-09-09T05:20:12.323-0700,2023-09-09T07:32:49.546-0700,21107,https://uwmidsun.atlassian.net/browse/STRAT15-193,STRAT15-193,20780,To Do,Story,Seed Database with Sample ETA Data,,0,0
+Kenneth Ruan,2023-09-09T05:20:04.874-0700,2023-09-09T12:09:05.546-0700,21106,https://uwmidsun.atlassian.net/browse/STRAT15-192,STRAT15-192,20780,To Do,Story,Seed database with Sample Weather Data,,0,0
+,2023-09-09T05:15:57.271-0700,2023-09-09T05:15:57.606-0700,21105,https://uwmidsun.atlassian.net/browse/STRAT15-191,STRAT15-191,20681,To Do,Story,Microservice Confluence Pages,,0,0
+,2023-09-09T05:15:39.708-0700,2023-09-09T05:15:40.172-0700,21104,https://uwmidsun.atlassian.net/browse/STRAT15-190,STRAT15-190,20681,To Do,Story,Scope Hardware Power Budget with Forest,,0,0
+Kenneth Ruan,2023-07-01T11:18:32.508-0700,2023-09-09T12:09:08.819-0700,21057,https://uwmidsun.atlassian.net/browse/STRAT15-186,STRAT15-186,20998,In Progress,Story,GraphQL Gateway,"[~accountid:612f6e2edae0a20071906f7a] [~accountid:63113f0bea661fd37d4f322a] 
 
 Joint-project.
 
 We are building out an GraphQL DB Gateway to allow our mysql db to interact with our:
 
 # Microservices (DB must be able to insert data from our microservices)
-# Dashboard (fastAPI must be able to retrieve data)",1.0,1.0
-Gustavo Ayub Ungaretti,2023-06-24T11:48:43.348-0700,2023-07-03T13:43:31.043-0700,21052,https://uwmidsun.atlassian.net/browse/STRAT15-185,STRAT15-185,21050.0,In Progress,Subtask,Jira Automation Proposal,"Under _Project Overviews/Jira Automation,_ create a project proposal for any application of the Jira Automation toolkit. 
+# Dashboard (fastAPI must be able to retrieve data)",1,1
+Gustavo Ayub Ungaretti,2023-06-24T11:48:43.348-0700,2023-07-03T13:43:31.043-0700,21052,https://uwmidsun.atlassian.net/browse/STRAT15-185,STRAT15-185,21050,In Progress,Subtask,Jira Automation Proposal,"Under _Project Overviews/Jira Automation,_ create a project proposal for any application of the Jira Automation toolkit. 
 
 * Scope
 * Timeline
@@ -55,34 +55,34 @@ Our main use-cases involve:
 
 * Analyzing, gathering, and identifying stale tickets.
 * Understanding our task completion and velocity.
-* Algorithm to determine ticket re-assignment. ",1.0,1.0
-Elizabeth Taranenko,2023-06-23T18:20:34.586-0700,2023-07-03T13:43:28.796-0700,21051,https://uwmidsun.atlassian.net/browse/STRAT15-184,STRAT15-184,21050.0,Done,Subtask,SPIKE: Investigate Jira API,"Research and determine feasibility regarding the Jira API and its integration with our workspace.
+* Algorithm to determine ticket re-assignment. ",1,1
+Elizabeth Taranenko,2023-06-23T18:20:34.586-0700,2023-07-03T13:43:28.796-0700,21051,https://uwmidsun.atlassian.net/browse/STRAT15-184,STRAT15-184,21050,Done,Subtask,SPIKE: Investigate Jira API,"Research and determine feasibility regarding the Jira API and its integration with our workspace.
 
 # Recommend a Jupyter Notebook to test the API and determine the feasibility of calling the API.
 # Consult with Rodrigo for access-issues. 
-# Feel free to use the Confluence space to document your API findings.",0.0,0.0
-Elizabeth Taranenko,2023-06-23T18:16:16.088-0700,2023-09-09T12:23:09.895-0700,21050,https://uwmidsun.atlassian.net/browse/STRAT15-183,STRAT15-183,20681.0,In Progress,Story,Jira Automation,"Problem Statement:
+# Feel free to use the Confluence space to document your API findings.",0,0
+Elizabeth Taranenko,2023-06-23T18:16:16.088-0700,2023-09-09T12:23:09.895-0700,21050,https://uwmidsun.atlassian.net/browse/STRAT15-183,STRAT15-183,20681,In Progress,Story,Jira Automation,"Problem Statement:
 
-* With our current Jira tickets and assignee’s it is difficult to keep track of “ticket activity” or ticket staleness. We need a tool that will help us determine which tickets are stale or inactive, so that we can re-assign or check-in.",1.0,1.0
-Nathaniel Gong Li,2023-05-31T18:31:38.630-0700,2023-05-31T18:35:07.887-0700,21049,https://uwmidsun.atlassian.net/browse/STRAT15-182,STRAT15-182,21010.0,In Progress,Subtask,Familiarize yourself with Flask and the ETA code,"# Familiarize yourself with Flask functionality and the Flask template provided: [https://github.com/uw-midsun/strategy-flask-template|https://github.com/uw-midsun/strategy-flask-template|smart-link] 
+* With our current Jira tickets and assignee’s it is difficult to keep track of “ticket activity” or ticket staleness. We need a tool that will help us determine which tickets are stale or inactive, so that we can re-assign or check-in.",1,1
+Nathaniel Gong Li,2023-05-31T18:31:38.630-0700,2023-05-31T18:35:07.887-0700,21049,https://uwmidsun.atlassian.net/browse/STRAT15-182,STRAT15-182,21010,In Progress,Subtask,Familiarize yourself with Flask and the ETA code,"# Familiarize yourself with Flask functionality and the Flask template provided: [https://github.com/uw-midsun/strategy-flask-template|https://github.com/uw-midsun/strategy-flask-template|smart-link] 
 # Pull the code from strategy_xv and familiarize yourself with eta.py. The goal is to have a full understanding of the code.
 # Pull down the Flask template into a repository on your local machine. Integrate the eta.py code into this template. Present your findings or MVP to the group.
 
 
 
-Ask Kenneth Ruan for any questions with the ETA code.",1.0,1.0
-Riddhiman Paul,2023-05-27T13:46:01.331-0700,2023-05-27T13:52:44.907-0700,21048,https://uwmidsun.atlassian.net/browse/STRAT15-181,STRAT15-181,21005.0,In Progress,Subtask,"Connect with Kenneth, Explore Existing Code, and Familiarize with Flask Template","# Explore the existing code on the strategy_xv repository. This will help you get familiar with the function calls. Try to do before meeting with Kenneth.
+Ask Kenneth Ruan for any questions with the ETA code.",1,1
+Riddhiman Paul,2023-05-27T13:46:01.331-0700,2023-05-27T13:52:44.907-0700,21048,https://uwmidsun.atlassian.net/browse/STRAT15-181,STRAT15-181,21005,In Progress,Subtask,"Connect with Kenneth, Explore Existing Code, and Familiarize with Flask Template","# Explore the existing code on the strategy_xv repository. This will help you get familiar with the function calls. Try to do before meeting with Kenneth.
 # Connect with Kenneth! He will give you a good idea of his weather model and how to migrate to being a microservice.
 # Familiarize yourself with the Flask template. 
-# EXTRA: Pull the flask template down into a local repo. Do the same with the victini_microservices repo. Create a folder in the victini_microservices repo called weather. Add the flask template to the weather folder in the victini_microservices repo and PR. This will be your working directory.",1.0,1.0
-Jason D'Souza,2023-05-27T13:22:03.440-0700,2023-06-10T11:40:33.994-0700,21047,https://uwmidsun.atlassian.net/browse/STRAT15-180,STRAT15-180,20677.0,In Progress,Story,Implement a FastAPI Framework,"# Create a folder for the server in the dashboard repository.
+# EXTRA: Pull the flask template down into a local repo. Do the same with the victini_microservices repo. Create a folder in the victini_microservices repo called weather. Add the flask template to the weather folder in the victini_microservices repo and PR. This will be your working directory.",1,1
+Jason D'Souza,2023-05-27T13:22:03.440-0700,2023-06-10T11:40:33.994-0700,21047,https://uwmidsun.atlassian.net/browse/STRAT15-180,STRAT15-180,20677,In Progress,Story,Implement a FastAPI Framework,"# Create a folder for the server in the dashboard repository.
 # Create the basic infrastructure for a FastAPI server. Follow good-practices when it comes to the file set-up.
 # Set-up sample database locally on mysql. 
 # Generate sample database, tables and data.
 # Test the FastAPI with the mysql server.
 # Once you’ve tested, push the FastAPI code, without your mysql db connection details of course.
-# Once our team has set-up the database, (probably next week), we will hook the database connection up with the server. ",1.0,1.0
-Stephanie Li,2023-05-27T13:15:46.215-0700,2023-09-09T12:16:21.660-0700,21046,https://uwmidsun.atlassian.net/browse/STRAT15-179,STRAT15-179,20677.0,In Progress,Story,Route Model Dashboard Preliminary Design,"Design, with Figma, the dashboard layout for the Route model currently collected.
+# Once our team has set-up the database, (probably next week), we will hook the database connection up with the server. ",1,1
+Stephanie Li,2023-05-27T13:15:46.215-0700,2023-09-09T12:16:21.660-0700,21046,https://uwmidsun.atlassian.net/browse/STRAT15-179,STRAT15-179,20677,In Progress,Story,Route Model Dashboard Preliminary Design,"Design, with Figma, the dashboard layout for the Route model currently collected.
 
 
 
@@ -96,18 +96,18 @@ I believe we can also embed the Figma designs into the code itself? It says “G
 
 
 
-[https://github.com/uw-midsun/strategy_xv/blob/ca40a30fab311cba9e1c637312a31ada6531efed/routemodelv2/sample_route_step4.csv|https://github.com/uw-midsun/strategy_xv/blob/ca40a30fab311cba9e1c637312a31ada6531efed/routemodelv2/sample_route_step4.csv|smart-link] ",1.0,1.0
-Ren Jie Zheng,2023-05-27T12:25:36.694-0700,2023-06-25T12:02:27.549-0700,21045,https://uwmidsun.atlassian.net/browse/STRAT15-178,STRAT15-178,20677.0,Done,Story,Introduce CoreUI to React App,"# Set-up a React repository on [uw-midsun|https://github.com/uw-midsun]/[*strategy_dashboard*|https://github.com/uw-midsun/strategy_dashboard] with create-react-app
+[https://github.com/uw-midsun/strategy_xv/blob/ca40a30fab311cba9e1c637312a31ada6531efed/routemodelv2/sample_route_step4.csv|https://github.com/uw-midsun/strategy_xv/blob/ca40a30fab311cba9e1c637312a31ada6531efed/routemodelv2/sample_route_step4.csv|smart-link] ",1,1
+Ren Jie Zheng,2023-05-27T12:25:36.694-0700,2023-06-25T12:02:27.549-0700,21045,https://uwmidsun.atlassian.net/browse/STRAT15-178,STRAT15-178,20677,Done,Story,Introduce CoreUI to React App,"# Set-up a React repository on [uw-midsun|https://github.com/uw-midsun]/[*strategy_dashboard*|https://github.com/uw-midsun/strategy_dashboard] with create-react-app
 # Introduce CoreUI to the repo
 # Build landing, routing, and initial “frame” components.
 # Set-up 3-4 mock-up graphs with CoreUI with sample data. Could be any data preferably geographic data.
 # Create a side-bar component.
-# Explore graphing library integration with CoreUI.",0.0,0.0
-Stephanie Li,2023-05-14T11:16:38.928-0700,2023-09-09T12:16:18.837-0700,21042,https://uwmidsun.atlassian.net/browse/STRAT15-177,STRAT15-177,20677.0,In Progress,Story,Frame Design,"We are looking to design the Landing page or the Home page of the dashboard. 
+# Explore graphing library integration with CoreUI.",0,0
+Stephanie Li,2023-05-14T11:16:38.928-0700,2023-09-09T12:16:18.837-0700,21042,https://uwmidsun.atlassian.net/browse/STRAT15-177,STRAT15-177,20677,In Progress,Story,Frame Design,"We are looking to design the Landing page or the Home page of the dashboard. 
 
-[https://www.figma.com/file/TccjbqECefrFEdgQD0b4sq/Dashboard?type=design&node-id=0%3A1&t=P8i4vfmN9DOr1C8T-1|https://www.figma.com/file/TccjbqECefrFEdgQD0b4sq/Dashboard?type=design&node-id=0%3A1&t=P8i4vfmN9DOr1C8T-1|smart-link]",1.0,1.0
-,2023-05-14T10:58:28.496-0700,2023-05-14T10:58:28.808-0700,21041,https://uwmidsun.atlassian.net/browse/STRAT15-176,STRAT15-176,20879.0,To Do,Story,Tools? Mocking?,,0.0,0.0
-Athithiya Mohanakumar,2023-05-13T11:17:11.696-0700,2023-09-09T12:22:15.920-0700,21039,https://uwmidsun.atlassian.net/browse/STRAT15-174,STRAT15-174,20679.0,In Progress,Story,SPIKE: Set up elevation api server,"[https://www.opentopodata.org/|https://www.opentopodata.org/|smart-link]
+[https://www.figma.com/file/TccjbqECefrFEdgQD0b4sq/Dashboard?type=design&node-id=0%3A1&t=P8i4vfmN9DOr1C8T-1|https://www.figma.com/file/TccjbqECefrFEdgQD0b4sq/Dashboard?type=design&node-id=0%3A1&t=P8i4vfmN9DOr1C8T-1|smart-link]",1,1
+,2023-05-14T10:58:28.496-0700,2023-05-14T10:58:28.808-0700,21041,https://uwmidsun.atlassian.net/browse/STRAT15-176,STRAT15-176,20879,To Do,Story,Tools? Mocking?,,0,0
+Athithiya Mohanakumar,2023-05-13T11:17:11.696-0700,2023-09-09T12:22:15.920-0700,21039,https://uwmidsun.atlassian.net/browse/STRAT15-174,STRAT15-174,20679,In Progress,Story,SPIKE: Set up elevation api server,"[https://www.opentopodata.org/|https://www.opentopodata.org/|smart-link]
 
 Investigative Story - Hitting TOPO Data for API Elevation Data
 
@@ -121,44 +121,44 @@ Investigative Story - Hitting TOPO Data for API Elevation Data
 # With the coordinate CSV attached, read in the coordinates, and create a DataFrame that has elevation data available for each coordinate piece. Append the coordinate data to the Dataframe for each coordinate.
 # Extract the resulting dataframe as a CSV. 
 
-Present findings to group!",1.0,1.0
-,2023-05-13T11:11:25.295-0700,2023-06-15T17:48:32.805-0700,21038,https://uwmidsun.atlassian.net/browse/STRAT15-173,STRAT15-173,20780.0,Done,Story,Create database instance on cloud,,0.0,0.0
-Ryan Lam,2023-04-09T00:10:07.755-0700,2023-09-09T07:22:52.781-0700,21037,https://uwmidsun.atlassian.net/browse/STRAT15-172,STRAT15-172,20998.0,In Progress,Story,Integrate GPX to DB Schemas,,1.0,1.0
-,2023-03-25T10:29:21.561-0700,2023-04-02T11:23:22.274-0700,21029,https://uwmidsun.atlassian.net/browse/STRAT15-171,STRAT15-171,21003.0,Done,Subtask,Set up dummy database for devs,,0.0,0.0
-,2023-03-25T09:42:44.538-0700,2023-04-01T10:44:21.937-0700,21026,https://uwmidsun.atlassian.net/browse/STRAT15-168,STRAT15-168,21003.0,Done,Subtask,New onboarding process,,0.0,0.0
-,2023-03-25T09:42:04.944-0700,2023-04-02T11:23:29.801-0700,21025,https://uwmidsun.atlassian.net/browse/STRAT15-167,STRAT15-167,21003.0,Done,Subtask,Basic dev env setup (software/tools),,0.0,0.0
-,2023-03-25T09:30:43.472-0700,2023-04-01T21:11:15.471-0700,21021,https://uwmidsun.atlassian.net/browse/STRAT15-163,STRAT15-163,21003.0,In Progress,Subtask,Dev enviornment set up (for microservice dev),,1.0,1.0
-,2023-03-25T09:30:31.498-0700,2023-09-09T07:21:15.109-0700,21020,https://uwmidsun.atlassian.net/browse/STRAT15-162,STRAT15-162,21003.0,In Progress,Subtask,Docker setup (for microservices),,1.0,1.0
-,2023-03-25T09:27:02.632-0700,2023-09-09T07:20:23.638-0700,21016,https://uwmidsun.atlassian.net/browse/STRAT15-158,STRAT15-158,21000.0,In Progress,Subtask,Database security,"Security   Shouldn’t be accessible from a random person, setup so our services can read/write data",1.0,1.0
-Prabhav Khera,2023-03-25T09:26:46.305-0700,2023-07-02T22:07:51.468-0700,21015,https://uwmidsun.atlassian.net/browse/STRAT15-157,STRAT15-157,21000.0,Done,Subtask,Set up the database ,,0.0,0.0
-,2023-03-25T09:26:34.389-0700,2023-09-09T07:20:20.493-0700,21014,https://uwmidsun.atlassian.net/browse/STRAT15-156,STRAT15-156,21000.0,In Progress,Subtask,Determine the schema of the database,,1.0,1.0
-,2023-03-25T09:26:05.651-0700,2023-07-22T00:27:44.384-0700,21013,https://uwmidsun.atlassian.net/browse/STRAT15-155,STRAT15-155,20999.0,Done,Subtask,Add data to database,,0.0,0.0
-,2023-03-25T09:25:39.768-0700,2023-07-22T00:27:42.384-0700,21012,https://uwmidsun.atlassian.net/browse/STRAT15-154,STRAT15-154,20999.0,Done,Subtask,Map real-time location to route,"* The location data needs to be mapped to our route   our route is represented by 1000s of (lat, long) points that connect to represent a route. The location data from the car will not exactly match the location points of our route so we need to figure out which of our route’s location point the car is nearest to (because this will be where the car is “at” in our route). A problem that we have is that the route may cross over itself and we don’t know which direction it’s going (as that is needed for other microservices). One option is to use the sliding window technique but the problem is that the route is 1000s of points and the microservice is stateless. We need to figure out an algorithm for this (or design the service in another way)",0.0,0.0
-Rodrigo Tiscareno,2023-03-25T09:25:00.385-0700,2023-07-22T00:27:37.749-0700,21011,https://uwmidsun.atlassian.net/browse/STRAT15-153,STRAT15-153,20999.0,Done,Subtask,Create basic server,"* Create a microservice that will listen to HTTP requests from the car which will contain the car’s location (lat, long) and other raw data (time, sensor data, etc.). The microservice will respond with an OK response to the client but the response will have no data",0.0,0.0
-Rodrigo Tiscareno,2023-03-25T09:23:18.913-0700,2023-09-09T11:52:08.867-0700,21010,https://uwmidsun.atlassian.net/browse/STRAT15-152,STRAT15-152,21004.0,In Progress,Story,ETA,"* Learn about Flask and REST APIs
+Present findings to group!",1,1
+,2023-05-13T11:11:25.295-0700,2023-06-15T17:48:32.805-0700,21038,https://uwmidsun.atlassian.net/browse/STRAT15-173,STRAT15-173,20780,Done,Story,Create database instance on cloud,,0,0
+Ryan Lam,2023-04-09T00:10:07.755-0700,2023-09-09T07:22:52.781-0700,21037,https://uwmidsun.atlassian.net/browse/STRAT15-172,STRAT15-172,20998,In Progress,Story,Integrate GPX to DB Schemas,,1,1
+,2023-03-25T10:29:21.561-0700,2023-04-02T11:23:22.274-0700,21029,https://uwmidsun.atlassian.net/browse/STRAT15-171,STRAT15-171,21003,Done,Subtask,Set up dummy database for devs,,0,0
+,2023-03-25T09:42:44.538-0700,2023-04-01T10:44:21.937-0700,21026,https://uwmidsun.atlassian.net/browse/STRAT15-168,STRAT15-168,21003,Done,Subtask,New onboarding process,,0,0
+,2023-03-25T09:42:04.944-0700,2023-04-02T11:23:29.801-0700,21025,https://uwmidsun.atlassian.net/browse/STRAT15-167,STRAT15-167,21003,Done,Subtask,Basic dev env setup (software/tools),,0,0
+,2023-03-25T09:30:43.472-0700,2023-04-01T21:11:15.471-0700,21021,https://uwmidsun.atlassian.net/browse/STRAT15-163,STRAT15-163,21003,In Progress,Subtask,Dev enviornment set up (for microservice dev),,1,1
+,2023-03-25T09:30:31.498-0700,2023-09-09T07:21:15.109-0700,21020,https://uwmidsun.atlassian.net/browse/STRAT15-162,STRAT15-162,21003,In Progress,Subtask,Docker setup (for microservices),,1,1
+,2023-03-25T09:27:02.632-0700,2023-09-09T07:20:23.638-0700,21016,https://uwmidsun.atlassian.net/browse/STRAT15-158,STRAT15-158,21000,In Progress,Subtask,Database security,"Security   Shouldn’t be accessible from a random person, setup so our services can read/write data",1,1
+Prabhav Khera,2023-03-25T09:26:46.305-0700,2023-07-02T22:07:51.468-0700,21015,https://uwmidsun.atlassian.net/browse/STRAT15-157,STRAT15-157,21000,Done,Subtask,Set up the database ,,0,0
+,2023-03-25T09:26:34.389-0700,2023-09-09T07:20:20.493-0700,21014,https://uwmidsun.atlassian.net/browse/STRAT15-156,STRAT15-156,21000,In Progress,Subtask,Determine the schema of the database,,1,1
+,2023-03-25T09:26:05.651-0700,2023-07-22T00:27:44.384-0700,21013,https://uwmidsun.atlassian.net/browse/STRAT15-155,STRAT15-155,20999,Done,Subtask,Add data to database,,0,0
+,2023-03-25T09:25:39.768-0700,2023-07-22T00:27:42.384-0700,21012,https://uwmidsun.atlassian.net/browse/STRAT15-154,STRAT15-154,20999,Done,Subtask,Map real-time location to route,"* The location data needs to be mapped to our route   our route is represented by 1000s of (lat, long) points that connect to represent a route. The location data from the car will not exactly match the location points of our route so we need to figure out which of our route’s location point the car is nearest to (because this will be where the car is “at” in our route). A problem that we have is that the route may cross over itself and we don’t know which direction it’s going (as that is needed for other microservices). One option is to use the sliding window technique but the problem is that the route is 1000s of points and the microservice is stateless. We need to figure out an algorithm for this (or design the service in another way)",0,0
+Rodrigo Tiscareno,2023-03-25T09:25:00.385-0700,2023-07-22T00:27:37.749-0700,21011,https://uwmidsun.atlassian.net/browse/STRAT15-153,STRAT15-153,20999,Done,Subtask,Create basic server,"* Create a microservice that will listen to HTTP requests from the car which will contain the car’s location (lat, long) and other raw data (time, sensor data, etc.). The microservice will respond with an OK response to the client but the response will have no data",0,0
+Rodrigo Tiscareno,2023-03-25T09:23:18.913-0700,2023-09-09T11:52:08.867-0700,21010,https://uwmidsun.atlassian.net/browse/STRAT15-152,STRAT15-152,21004,In Progress,Story,ETA,"* Learn about Flask and REST APIs
 * Take a look at [https://github.com/uw-midsun/strategy-flask-template/tree/main|https://github.com/uw-midsun/strategy-flask-template/tree/main|smart-link] 
 * Create a branch on [https://github.com/uw-midsun/victini-microservices|https://github.com/uw-midsun/victini-microservices|smart-link] and pull over the ETA and Flask code
-* Build out endpoints for APIs",1.0,1.0
-Rodrigo Tiscareno,2023-03-25T09:23:14.576-0700,2023-09-09T11:52:04.758-0700,21009,https://uwmidsun.atlassian.net/browse/STRAT15-151,STRAT15-151,21004.0,In Progress,Story,Solar Irradiance,Work with Anh and her code and see if migration to micro-service is possible. ,1.0,1.0
-,2023-03-25T09:23:09.427-0700,2023-09-09T07:28:22.253-0700,21008,https://uwmidsun.atlassian.net/browse/STRAT15-150,STRAT15-150,21004.0,To Do,Story,Coulomb Counting,,0.0,0.0
-,2023-03-25T09:23:02.744-0700,2023-09-09T07:27:35.936-0700,21007,https://uwmidsun.atlassian.net/browse/STRAT15-149,STRAT15-149,21004.0,To Do,Story,Live loop,,0.0,0.0
-,2023-03-25T09:22:54.767-0700,2023-09-09T07:27:05.639-0700,21006,https://uwmidsun.atlassian.net/browse/STRAT15-148,STRAT15-148,21004.0,To Do,Story,Optimization,,0.0,0.0
-Kenneth Ruan,2023-03-25T09:22:49.596-0700,2023-09-09T12:09:03.259-0700,21005,https://uwmidsun.atlassian.net/browse/STRAT15-147,STRAT15-147,21004.0,In Progress,Story,Weather,"Work with Kenneth to migrate the _get_weather.py_ code from strategy_xv into a microservice.
+* Build out endpoints for APIs",1,1
+Rodrigo Tiscareno,2023-03-25T09:23:14.576-0700,2023-09-09T11:52:04.758-0700,21009,https://uwmidsun.atlassian.net/browse/STRAT15-151,STRAT15-151,21004,In Progress,Story,Solar Irradiance,Work with Anh and her code and see if migration to micro-service is possible. ,1,1
+,2023-03-25T09:23:09.427-0700,2023-09-09T07:28:22.253-0700,21008,https://uwmidsun.atlassian.net/browse/STRAT15-150,STRAT15-150,21004,To Do,Story,Coulomb Counting,,0,0
+,2023-03-25T09:23:02.744-0700,2023-09-09T07:27:35.936-0700,21007,https://uwmidsun.atlassian.net/browse/STRAT15-149,STRAT15-149,21004,To Do,Story,Live loop,,0,0
+,2023-03-25T09:22:54.767-0700,2023-09-09T07:27:05.639-0700,21006,https://uwmidsun.atlassian.net/browse/STRAT15-148,STRAT15-148,21004,To Do,Story,Optimization,,0,0
+Kenneth Ruan,2023-03-25T09:22:49.596-0700,2023-09-09T12:09:03.259-0700,21005,https://uwmidsun.atlassian.net/browse/STRAT15-147,STRAT15-147,21004,In Progress,Story,Weather,"Work with Kenneth to migrate the _get_weather.py_ code from strategy_xv into a microservice.
 
 The microservice should:
 
 * Incorporate the Flask server: [https://github.com/uw-midsun/strategy-flask-template/tree/main/src|https://github.com/uw-midsun/strategy-flask-template/tree/main/src|smart-link] 
 * Request data at a time interval pre-determined by the team or by your judgement.
 * When the database is online, insert weather data into a created table. 
-* Because weather data will probably require internet connection, add code to only call the API when it is available. ",1.0,1.0
-,2023-03-25T09:21:25.991-0700,2023-04-02T08:35:13.953-0700,21004,https://uwmidsun.atlassian.net/browse/STRAT15-146,STRAT15-146,,To Do,Epic,Victini - Microservices,[https://github.com/uw-midsun/victini-microservices|https://github.com/uw-midsun/victini-microservices|smart-link] ,0.0,0.0
-Ryan Lam,2023-03-25T09:21:02.791-0700,2023-07-01T11:16:45.136-0700,21003,https://uwmidsun.atlassian.net/browse/STRAT15-145,STRAT15-145,20998.0,To Do,Story,Cloud services + DevOps,Dependent on other projects .   ,0.0,0.0
-Prabhav Khera,2023-03-25T09:19:17.784-0700,2023-09-09T12:08:40.409-0700,21000,https://uwmidsun.atlassian.net/browse/STRAT15-142,STRAT15-142,20998.0,In Progress,Story,The Mongo,Setting up MongoDB and using change_streams from MongoDB to stream real-time changes.,1.0,1.0
-Rodrigo Tiscareno,2023-03-25T09:19:08.568-0700,2023-09-09T07:18:45.872-0700,20999,https://uwmidsun.atlassian.net/browse/STRAT15-141,STRAT15-141,20998.0,Done,Story,Location service,"* The car (client) sends an HTTP request every _x_ seconds to the location service with data such as time, location (latitude, longitude), velocity, electrical measurements, etc.
+* Because weather data will probably require internet connection, add code to only call the API when it is available. ",1,1
+,2023-03-25T09:21:25.991-0700,2023-04-02T08:35:13.953-0700,21004,https://uwmidsun.atlassian.net/browse/STRAT15-146,STRAT15-146,,To Do,Epic,Victini - Microservices,[https://github.com/uw-midsun/victini-microservices|https://github.com/uw-midsun/victini-microservices|smart-link] ,0,0
+Ryan Lam,2023-03-25T09:21:02.791-0700,2023-07-01T11:16:45.136-0700,21003,https://uwmidsun.atlassian.net/browse/STRAT15-145,STRAT15-145,20998,To Do,Story,Cloud services + DevOps,Dependent on other projects .   ,0,0
+Prabhav Khera,2023-03-25T09:19:17.784-0700,2023-09-09T12:08:40.409-0700,21000,https://uwmidsun.atlassian.net/browse/STRAT15-142,STRAT15-142,20998,In Progress,Story,The Mongo,Setting up MongoDB and using change_streams from MongoDB to stream real-time changes.,1,1
+Rodrigo Tiscareno,2023-03-25T09:19:08.568-0700,2023-09-09T07:18:45.872-0700,20999,https://uwmidsun.atlassian.net/browse/STRAT15-141,STRAT15-141,20998,Done,Story,Location service,"* The car (client) sends an HTTP request every _x_ seconds to the location service with data such as time, location (latitude, longitude), velocity, electrical measurements, etc.
 * The location service maps the car’s location to its nearest coordinate that exists in our database
-* The location service inserts the raw data and mapped coordinates to a database that (only) stores the historical location/data of the car (which is just raw data)",0.0,0.0
-,2023-03-25T09:17:57.539-0700,2023-04-02T08:35:01.722-0700,20998,https://uwmidsun.atlassian.net/browse/STRAT15-140,STRAT15-140,,To Do,Epic,Victini - Core,[https://github.com/uw-midsun/victini-core|https://github.com/uw-midsun/victini-core|smart-link] ,0.0,0.0
-Jason D'Souza,2023-03-18T15:53:22.190-0700,2023-05-14T10:51:50.200-0700,20996,https://uwmidsun.atlassian.net/browse/STRAT15-139,STRAT15-139,20677.0,To Do,Task,Integrate Map View into Dash App [SPIKE],"*Problem:*  Currently, there is no map in our Dash App, we need to implement one. 
+* The location service inserts the raw data and mapped coordinates to a database that (only) stores the historical location/data of the car (which is just raw data)",0,0
+,2023-03-25T09:17:57.539-0700,2023-04-02T08:35:01.722-0700,20998,https://uwmidsun.atlassian.net/browse/STRAT15-140,STRAT15-140,,To Do,Epic,Victini - Core,[https://github.com/uw-midsun/victini-core|https://github.com/uw-midsun/victini-core|smart-link] ,0,0
+Jason D'Souza,2023-03-18T15:53:22.190-0700,2023-05-14T10:51:50.200-0700,20996,https://uwmidsun.atlassian.net/browse/STRAT15-139,STRAT15-139,20677,To Do,Task,Integrate Map View into Dash App [SPIKE],"*Problem:*  Currently, there is no map in our Dash App, we need to implement one. 
 
 *Approach:* Using the current StreamLit branch, implement a map that displays a car along a certain route. If you can’t do that, do it in Dash. 
 
@@ -166,56 +166,56 @@ Jason D'Souza,2023-03-18T15:53:22.190-0700,2023-05-14T10:51:50.200-0700,20996,ht
 ** Car icon
 ** Datapoints along the route
 ** Embed the Map into our current 
-* Run wsgi.py and test_routes.py in the current dash app. This is on the schedule_graphs branch",0.0,0.0
-,2023-03-18T15:50:42.084-0700,2023-05-14T10:51:02.208-0700,20995,https://uwmidsun.atlassian.net/browse/STRAT15-138,STRAT15-138,20677.0,To Do,Task,Implement Plotly Socket Extension ,,0.0,0.0
-Prabhav Khera,2023-02-22T22:57:36.821-0800,2023-03-17T17:25:06.009-0700,20983,https://uwmidsun.atlassian.net/browse/STRAT15-137,STRAT15-137,20938.0,In Progress,Subtask,In person meetup to build basic script and test with arduino,,1.0,1.0
-Prabhav Khera,2023-02-22T22:57:11.539-0800,2023-03-17T17:25:00.028-0700,20982,https://uwmidsun.atlassian.net/browse/STRAT15-136,STRAT15-136,20938.0,Done,Subtask,Gather equipment for in-person meetup,,0.0,0.0
-Jason D'Souza,2023-02-15T18:34:18.751-0800,2023-02-21T18:02:13.904-0800,20978,https://uwmidsun.atlassian.net/browse/STRAT15-133,STRAT15-133,20908.0,Done,Subtask,API Libraries for Routing Map,"Research and compare the different types of possible libraries/frameworks to map out the routemodel.
+* Run wsgi.py and test_routes.py in the current dash app. This is on the schedule_graphs branch",0,0
+,2023-03-18T15:50:42.084-0700,2023-05-14T10:51:02.208-0700,20995,https://uwmidsun.atlassian.net/browse/STRAT15-138,STRAT15-138,20677,To Do,Task,Implement Plotly Socket Extension ,,0,0
+Prabhav Khera,2023-02-22T22:57:36.821-0800,2023-03-17T17:25:06.009-0700,20983,https://uwmidsun.atlassian.net/browse/STRAT15-137,STRAT15-137,20938,In Progress,Subtask,In person meetup to build basic script and test with arduino,,1,1
+Prabhav Khera,2023-02-22T22:57:11.539-0800,2023-03-17T17:25:00.028-0700,20982,https://uwmidsun.atlassian.net/browse/STRAT15-136,STRAT15-136,20938,Done,Subtask,Gather equipment for in-person meetup,,0,0
+Jason D'Souza,2023-02-15T18:34:18.751-0800,2023-02-21T18:02:13.904-0800,20978,https://uwmidsun.atlassian.net/browse/STRAT15-133,STRAT15-133,20908,Done,Subtask,API Libraries for Routing Map,"Research and compare the different types of possible libraries/frameworks to map out the routemodel.
 
 Would be used for a future dashboard for the car, etc.
 
 See the following confluence for the planning for the last car.
 
-[https://uwmidsun.atlassian.net/wiki/spaces/S/pages/2067824911/Routemodel+Graphical+User+Interface+GUI|https://uwmidsun.atlassian.net/wiki/spaces/S/pages/2067824911/Routemodel+Graphical+User+Interface+GUI|smart-link]",0.0,0.0
-Jason D'Souza,2023-02-15T18:30:53.072-0800,2023-07-08T12:16:03.153-0700,20977,https://uwmidsun.atlassian.net/browse/STRAT15-132,STRAT15-132,20908.0,Done,Subtask,Route Model Leaflet Proof of Concept,"We want to be able to prove that Leaflet is a viable mapping library for our route model. 
+[https://uwmidsun.atlassian.net/wiki/spaces/S/pages/2067824911/Routemodel+Graphical+User+Interface+GUI|https://uwmidsun.atlassian.net/wiki/spaces/S/pages/2067824911/Routemodel+Graphical+User+Interface+GUI|smart-link]",0,0
+Jason D'Souza,2023-02-15T18:30:53.072-0800,2023-07-08T12:16:03.153-0700,20977,https://uwmidsun.atlassian.net/browse/STRAT15-132,STRAT15-132,20908,Done,Subtask,Route Model Leaflet Proof of Concept,"We want to be able to prove that Leaflet is a viable mapping library for our route model. 
 
 
 
 Leveraging the Leaflet JS or Python library, create a folder in our RouteModel directory called “graphics” and create simple markers for every *polyline_point_index* point in the [https://github.com/uw-midsun/strategy_xv/blob/e73260cfce1bb35216486057d1d7de87ebe8bc9c/routemodelv2/sample_route_step4.csv|https://github.com/uw-midsun/strategy_xv/blob/e73260cfce1bb35216486057d1d7de87ebe8bc9c/routemodelv2/sample_route_step4.csv|smart-link] using the point’s latitude and longitude. Create a simple interface to be able to scroll through the map with ease.
 
-The next steps would be a simple program to calculate the expected ETA to the next checkpoint given an average speed, but let’s start with the simple marker graphic first  ",0.0,0.0
-Steven Li,2023-01-28T12:30:03.529-0800,2023-02-05T09:37:48.598-0800,20969,https://uwmidsun.atlassian.net/browse/STRAT15-131,STRAT15-131,20968.0,In-Review,Subtask,CSV to Plotly ,"Create a CRON job to automate the transfer of data from the raw *sample_route_step4.csv* to a simple GUI with Plotly graphs.
+The next steps would be a simple program to calculate the expected ETA to the next checkpoint given an average speed, but let’s start with the simple marker graphic first  ",0,0
+Steven Li,2023-01-28T12:30:03.529-0800,2023-02-05T09:37:48.598-0800,20969,https://uwmidsun.atlassian.net/browse/STRAT15-131,STRAT15-131,20968,In-Review,Subtask,CSV to Plotly ,"Create a CRON job to automate the transfer of data from the raw *sample_route_step4.csv* to a simple GUI with Plotly graphs.
 
 Start with simple to complex scheduling libraries. APScheduler, Cron-Python, and CRON scheduling. 
 
- MVP: Basic pipeline that transfers from CSV to Plotly graphs on a scheduled, ASYNC method preferred. ",0.0,0.0
-Steven Li,2023-01-28T12:28:28.566-0800,2023-09-09T05:09:35.357-0700,20968,https://uwmidsun.atlassian.net/browse/STRAT15-130,STRAT15-130,20679.0,Done,Story,SPIKE: Scheduling CRON Jobs,,0.0,0.0
-Ren Jie Zheng,2023-01-25T15:28:19.610-0800,2023-02-21T18:10:19.652-0800,20961,https://uwmidsun.atlassian.net/browse/STRAT15-127,STRAT15-127,20808.0,Done,Subtask,Automate Ranking,"Write a script that automates the process involving:
+ MVP: Basic pipeline that transfers from CSV to Plotly graphs on a scheduled, ASYNC method preferred. ",0,0
+Steven Li,2023-01-28T12:28:28.566-0800,2023-09-09T05:09:35.357-0700,20968,https://uwmidsun.atlassian.net/browse/STRAT15-130,STRAT15-130,20679,Done,Story,SPIKE: Scheduling CRON Jobs,,0,0
+Ren Jie Zheng,2023-01-25T15:28:19.610-0800,2023-02-21T18:10:19.652-0800,20961,https://uwmidsun.atlassian.net/browse/STRAT15-127,STRAT15-127,20808,Done,Subtask,Automate Ranking,"Write a script that automates the process involving:
 
 * Reading and receiving raw, CSV files for each loop.
 * Converting them into their “converted forms” (leverage existing function for this)
 * Place converted CSV into /converted in the repository.
-* From each converted row, append the rows from each to form a singular CSV file.",0.0,0.0
-Prabhav Khera,2023-01-21T11:15:12.517-0800,2023-09-09T05:09:58.430-0700,20938,https://uwmidsun.atlassian.net/browse/STRAT15-123,STRAT15-123,20879.0,In Progress,Story,Coloumb Counting,"Study the existing code and try to replicate the functionality of building coulumb counting with the added functionality of automating the process of tracking and storing the values for charge as the battery is charged and discharged and automatically store value of State Of Charge in the database (ideally, right now in a csv)
+* From each converted row, append the rows from each to form a singular CSV file.",0,0
+Prabhav Khera,2023-01-21T11:15:12.517-0800,2023-09-09T05:09:58.430-0700,20938,https://uwmidsun.atlassian.net/browse/STRAT15-123,STRAT15-123,20879,In Progress,Story,Coloumb Counting,"Study the existing code and try to replicate the functionality of building coulumb counting with the added functionality of automating the process of tracking and storing the values for charge as the battery is charged and discharged and automatically store value of State Of Charge in the database (ideally, right now in a csv)
 
 
 
-[https://uwmidsun.atlassian.net/l/cp/A2sbf018|https://uwmidsun.atlassian.net/l/cp/A2sbf018|smart-link] ",1.0,1.0
-,2023-01-15T16:36:13.302-0800,2023-02-23T20:10:56.730-0800,20927,https://uwmidsun.atlassian.net/browse/STRAT15-121,STRAT15-121,20918.0,In Progress,Subtask,Database Tutorials / Confluence Documentation,,1.0,1.0
-,2023-01-15T16:35:44.386-0800,2023-01-15T16:35:44.836-0800,20926,https://uwmidsun.atlassian.net/browse/STRAT15-120,STRAT15-120,20918.0,To Do,Subtask,Automation scripts to support database operations,,0.0,0.0
-,2023-01-15T16:34:22.341-0800,2023-01-15T16:34:22.705-0800,20925,https://uwmidsun.atlassian.net/browse/STRAT15-119,STRAT15-119,20918.0,To Do,Subtask,Dummy Data Generation / Testing / CI,,0.0,0.0
-,2023-01-15T16:33:13.735-0800,2023-01-15T16:33:14.053-0800,20924,https://uwmidsun.atlassian.net/browse/STRAT15-118,STRAT15-118,20918.0,To Do,Subtask,Schema/Table set-up automation,,0.0,0.0
-Ryan Lam,2023-01-15T16:32:56.145-0800,2023-01-16T07:46:06.715-0800,20923,https://uwmidsun.atlassian.net/browse/STRAT15-117,STRAT15-117,20918.0,Done,Subtask,Database Start / Stop set-up,,0.0,0.0
-,2023-01-15T16:32:34.919-0800,2023-01-28T10:55:21.220-0800,20922,https://uwmidsun.atlassian.net/browse/STRAT15-116,STRAT15-116,20918.0,Done,Subtask,Schema Definitions,"Requires planning meeting to initialize.
+[https://uwmidsun.atlassian.net/l/cp/A2sbf018|https://uwmidsun.atlassian.net/l/cp/A2sbf018|smart-link] ",1,1
+,2023-01-15T16:36:13.302-0800,2023-02-23T20:10:56.730-0800,20927,https://uwmidsun.atlassian.net/browse/STRAT15-121,STRAT15-121,20918,In Progress,Subtask,Database Tutorials / Confluence Documentation,,1,1
+,2023-01-15T16:35:44.386-0800,2023-01-15T16:35:44.836-0800,20926,https://uwmidsun.atlassian.net/browse/STRAT15-120,STRAT15-120,20918,To Do,Subtask,Automation scripts to support database operations,,0,0
+,2023-01-15T16:34:22.341-0800,2023-01-15T16:34:22.705-0800,20925,https://uwmidsun.atlassian.net/browse/STRAT15-119,STRAT15-119,20918,To Do,Subtask,Dummy Data Generation / Testing / CI,,0,0
+,2023-01-15T16:33:13.735-0800,2023-01-15T16:33:14.053-0800,20924,https://uwmidsun.atlassian.net/browse/STRAT15-118,STRAT15-118,20918,To Do,Subtask,Schema/Table set-up automation,,0,0
+Ryan Lam,2023-01-15T16:32:56.145-0800,2023-01-16T07:46:06.715-0800,20923,https://uwmidsun.atlassian.net/browse/STRAT15-117,STRAT15-117,20918,Done,Subtask,Database Start / Stop set-up,,0,0
+,2023-01-15T16:32:34.919-0800,2023-01-28T10:55:21.220-0800,20922,https://uwmidsun.atlassian.net/browse/STRAT15-116,STRAT15-116,20918,Done,Subtask,Schema Definitions,"Requires planning meeting to initialize.
 
 
 
-[https://uwmidsun.atlassian.net/wiki/spaces/S/pages/3214999553/Database+Schema+Planning|https://uwmidsun.atlassian.net/wiki/spaces/S/pages/3214999553/Database+Schema+Planning|smart-link] ",0.0,0.0
-Ryan Lam,2023-01-15T16:31:49.540-0800,2023-04-07T19:46:37.336-0700,20921,https://uwmidsun.atlassian.net/browse/STRAT15-115,STRAT15-115,20918.0,Done,Subtask,Docker set-up,"Docker set-up for Windows and MacOS.
+[https://uwmidsun.atlassian.net/wiki/spaces/S/pages/3214999553/Database+Schema+Planning|https://uwmidsun.atlassian.net/wiki/spaces/S/pages/3214999553/Database+Schema+Planning|smart-link] ",0,0
+Ryan Lam,2023-01-15T16:31:49.540-0800,2023-04-07T19:46:37.336-0700,20921,https://uwmidsun.atlassian.net/browse/STRAT15-115,STRAT15-115,20918,Done,Subtask,Docker set-up,"Docker set-up for Windows and MacOS.
 
-Create a Confluence page in our Database directory with instructions to set-up development environment with coverage on database set-up with Docker.  ",0.0,0.0
-,2023-01-15T16:30:55.843-0800,2023-09-09T05:09:48.735-0700,20918,https://uwmidsun.atlassian.net/browse/STRAT15-112,STRAT15-112,20780.0,Done,Story,Infrastructure,,0.0,0.0
-Vinayak Bector,2022-11-28T20:46:47.202-0800,2023-03-24T18:31:35.805-0700,20914,https://uwmidsun.atlassian.net/browse/STRAT15-111,STRAT15-111,20678.0,In Progress,Story,[SPIKE]: Understand the optimization logic in old repository,"[~accountid:6303709355894b7fbddc5c5f] [~accountid:612f6aa26a4c09006aa5716d] 
+Create a Confluence page in our Database directory with instructions to set-up development environment with coverage on database set-up with Docker.  ",0,0
+,2023-01-15T16:30:55.843-0800,2023-09-09T05:09:48.735-0700,20918,https://uwmidsun.atlassian.net/browse/STRAT15-112,STRAT15-112,20780,Done,Story,Infrastructure,,0,0
+Vinayak Bector,2022-11-28T20:46:47.202-0800,2023-03-24T18:31:35.805-0700,20914,https://uwmidsun.atlassian.net/browse/STRAT15-111,STRAT15-111,20678,In Progress,Story,[SPIKE]: Understand the optimization logic in old repository,"[~accountid:6303709355894b7fbddc5c5f] [~accountid:612f6aa26a4c09006aa5716d] 
 
 Check out this repository [https://github.com/uw-midsun/strategy|https://github.com/uw-midsun/strategy|smart-link] 
 
@@ -227,9 +227,9 @@ Explore that and understand what the objective function is that they are trying 
 
 
 
-Also try and explore what are the different parameters and suggest a good way to add Weather data, State of Charge, and Solar data to this calculation (don’t worry about too many variables, just pick something like temperature, SoC, Humidity, Solar radiance (or whatever)). ",1.0,1.0
-,2022-11-27T09:35:30.513-0800,2023-09-09T05:14:52.288-0700,20913,https://uwmidsun.atlassian.net/browse/STRAT15-110,STRAT15-110,20911.0,In Progress,Subtask,Check Driver Eval Metrics,Checking with team over driver statistics.,1.0,1.0
-,2022-11-27T09:28:26.076-0800,2023-09-09T05:14:42.159-0700,20912,https://uwmidsun.atlassian.net/browse/STRAT15-109,STRAT15-109,20911.0,In Progress,Subtask,SPIKE: Processing and Graphing Driver Data,"Create a library to process generated CSV data into visual graphs (library of choice). 
+Also try and explore what are the different parameters and suggest a good way to add Weather data, State of Charge, and Solar data to this calculation (don’t worry about too many variables, just pick something like temperature, SoC, Humidity, Solar radiance (or whatever)). ",1,1
+,2022-11-27T09:35:30.513-0800,2023-09-09T05:14:52.288-0700,20913,https://uwmidsun.atlassian.net/browse/STRAT15-110,STRAT15-110,20911,In Progress,Subtask,Check Driver Eval Metrics,Checking with team over driver statistics.,1,1
+,2022-11-27T09:28:26.076-0800,2023-09-09T05:14:42.159-0700,20912,https://uwmidsun.atlassian.net/browse/STRAT15-109,STRAT15-109,20911,In Progress,Subtask,SPIKE: Processing and Graphing Driver Data,"Create a library to process generated CSV data into visual graphs (library of choice). 
 
 # Generate randomized CSV with driver:
 ## Name
@@ -246,11 +246,11 @@ Also try and explore what are the different parameters and suggest a good way to
 
 
 
-Next steps would be a total build-out of application UI.",1.0,1.0
-,2022-11-27T09:27:22.241-0800,2023-09-09T09:14:23.821-0700,20911,https://uwmidsun.atlassian.net/browse/STRAT15-108,STRAT15-108,20682.0,To Do,Story,Driver Profiling,"Evaluating driver performance based on battery efficiency, velocity, and behaviour. 
+Next steps would be a total build-out of application UI.",1,1
+,2022-11-27T09:27:22.241-0800,2023-09-09T09:14:23.821-0700,20911,https://uwmidsun.atlassian.net/browse/STRAT15-108,STRAT15-108,20682,To Do,Story,Driver Profiling,"Evaluating driver performance based on battery efficiency, velocity, and behaviour. 
 
-Objective is to build an application to support visual, interactive, and customizable driver evaluation for future projects.",0.0,0.0
-Stephanie Li,2022-11-27T08:30:22.936-0800,2023-09-09T05:09:52.268-0700,20910,https://uwmidsun.atlassian.net/browse/STRAT15-107,STRAT15-107,20677.0,Done,Story,Dashboard Alternatives Research,"Compile a report of dashboard options that are compatible with Python and/or Javascript
+Objective is to build an application to support visual, interactive, and customizable driver evaluation for future projects.",0,0
+Stephanie Li,2022-11-27T08:30:22.936-0800,2023-09-09T05:09:52.268-0700,20910,https://uwmidsun.atlassian.net/browse/STRAT15-107,STRAT15-107,20677,Done,Story,Dashboard Alternatives Research,"Compile a report of dashboard options that are compatible with Python and/or Javascript
 
 Information on dashboard alternatives could include:
 
@@ -265,8 +265,8 @@ Information on dashboard alternatives could include:
 * Connection Details (connection requirements, cloud-based etc.) (boolean of whether the software can receive data from a database directly (MySQL))
 * Any other additional details you think may be good to include!
 
-Please compile the report on the Confluence page under the Dashboard Project Overview. Follow-up steps may be pitching the database, implementation etc.",0.0,0.0
-Ziven Rokhit,2022-11-27T07:49:26.436-0800,2023-09-09T05:09:55.655-0700,20909,https://uwmidsun.atlassian.net/browse/STRAT15-106,STRAT15-106,20870.0,In Progress,Story,MSXIV Aux Loss Investigation and Migration,"Test and migrate MSXIV Auxiliary / Power budget code from [https://github.com/uw-midsun/strategy/tree/master/auxloss|https://github.com/uw-midsun/strategy/tree/master/auxloss|smart-link]. 
+Please compile the report on the Confluence page under the Dashboard Project Overview. Follow-up steps may be pitching the database, implementation etc.",0,0
+Ziven Rokhit,2022-11-27T07:49:26.436-0800,2023-09-09T05:09:55.655-0700,20909,https://uwmidsun.atlassian.net/browse/STRAT15-106,STRAT15-106,20870,In Progress,Story,MSXIV Aux Loss Investigation and Migration,"Test and migrate MSXIV Auxiliary / Power budget code from [https://github.com/uw-midsun/strategy/tree/master/auxloss|https://github.com/uw-midsun/strategy/tree/master/auxloss|smart-link]. 
 
 
 
@@ -274,12 +274,12 @@ Primarily, we want to:
 
 # Evaluate and test [aux_power_consumption.py|https://github.com/uw-midsun/strategy/blob/master/auxloss/aux_power_consumption.py], and [auxsystem.py|https://github.com/uw-midsun/strategy/blob/master/auxloss/auxsystem.py]. Leverage the _tests_ folder to test each function or create tests to verify functionality.
 # Outline the objective and purpose of each script and function (create new pages in Confluence Hardware Power Budget Overview >   MSXIV Code Audit. 
-# BONUS: Create a aux_visualizations.py script   series of visuals describing the main drivers of power draw and correlations between voltage, current versus the power.",1.0,1.0
-Jason D'Souza,2022-11-25T07:41:23.884-0800,2023-09-09T05:24:35.768-0700,20908,https://uwmidsun.atlassian.net/browse/STRAT15-105,STRAT15-105,20679.0,Done,Story,Route Model Graphics,,0.0,0.0
-Kenneth Ruan,2022-11-12T11:26:54.546-0800,2023-01-15T16:44:25.538-0800,20896,https://uwmidsun.atlassian.net/browse/STRAT15-102,STRAT15-102,20839.0,Done,Subtask,SPIKE: WeatherRacer Class for Weather API calls,"We want to simulate a race and gathering weather data on the fly. We are focusing on the temperature, windspeed, wind direction, humidity, cloudcover, and wind direction.
+# BONUS: Create a aux_visualizations.py script   series of visuals describing the main drivers of power draw and correlations between voltage, current versus the power.",1,1
+Jason D'Souza,2022-11-25T07:41:23.884-0800,2023-09-09T05:24:35.768-0700,20908,https://uwmidsun.atlassian.net/browse/STRAT15-105,STRAT15-105,20679,Done,Story,Route Model Graphics,,0,0
+Kenneth Ruan,2022-11-12T11:26:54.546-0800,2023-01-15T16:44:25.538-0800,20896,https://uwmidsun.atlassian.net/browse/STRAT15-102,STRAT15-102,20839,Done,Subtask,SPIKE: WeatherRacer Class for Weather API calls,"We want to simulate a race and gathering weather data on the fly. We are focusing on the temperature, windspeed, wind direction, humidity, cloudcover, and wind direction.
 
-Build a class that schedules and manages the frequency and duration of API calls for these fields. We will use a fixed lat, long coordinate of your choice for now - but we will look to have this as a dynamic field in the future. The goal is to facilitate ",0.0,0.0
-Kevin Lau,2022-11-05T11:24:07.491-0700,2023-09-09T12:14:03.143-0700,20890,https://uwmidsun.atlassian.net/browse/STRAT15-99,STRAT15-99,20880.0,In-Review,Story,[SPIKE]: Explore the receiving function scripts,"We have some receiver function scripts that take the data from CAN bus and decrypt them to the data we want. 
+Build a class that schedules and manages the frequency and duration of API calls for these fields. We will use a fixed lat, long coordinate of your choice for now - but we will look to have this as a dynamic field in the future. The goal is to facilitate ",0,0
+Kevin Lau,2022-11-05T11:24:07.491-0700,2023-09-09T12:14:03.143-0700,20890,https://uwmidsun.atlassian.net/browse/STRAT15-99,STRAT15-99,20880,In-Review,Story,[SPIKE]: Explore the receiving function scripts,"We have some receiver function scripts that take the data from CAN bus and decrypt them to the data we want. 
 
 *Explore:*
 
@@ -293,8 +293,8 @@ Build a sample csv file with all of the data stored from CAN. Based on that we c
 
 [https://github.com/uw-midsun/sunstream/tree/main/recv_functions|https://github.com/uw-midsun/sunstream/tree/main/recv_functions|smart-link]
 
-[https://uwmidsun.atlassian.net/wiki/spaces/ELEC/pages/3157950471/Meeting+Notes+-+Strategy+x+FW|https://uwmidsun.atlassian.net/wiki/spaces/ELEC/pages/3157950471/Meeting+Notes+-+Strategy+x+FW|smart-link]",0.0,0.0
-Anh Mai Que,2022-11-05T11:20:43.143-0700,2023-01-28T15:17:15.030-0800,20889,https://uwmidsun.atlassian.net/browse/STRAT15-98,STRAT15-98,20888.0,In Progress,Subtask,Solar Day Class,"Refine the current Solar Day class [https://github.com/uw-midsun/strategy_xv/blob/main/optimization/new_solar.py|https://github.com/uw-midsun/strategy_xv/blob/main/optimization/new_solar.py|smart-link]to mimic real-time changes to lat, longs. We want to calculate the *angle* at which the rays are hitting the flat cells over a period of time. This will then translate into the intensity of the suns rays which will allow for deciphering of how much energy the car is receiving.
+[https://uwmidsun.atlassian.net/wiki/spaces/ELEC/pages/3157950471/Meeting+Notes+-+Strategy+x+FW|https://uwmidsun.atlassian.net/wiki/spaces/ELEC/pages/3157950471/Meeting+Notes+-+Strategy+x+FW|smart-link]",0,0
+Anh Mai Que,2022-11-05T11:20:43.143-0700,2023-01-28T15:17:15.030-0800,20889,https://uwmidsun.atlassian.net/browse/STRAT15-98,STRAT15-98,20888,In Progress,Subtask,Solar Day Class,"Refine the current Solar Day class [https://github.com/uw-midsun/strategy_xv/blob/main/optimization/new_solar.py|https://github.com/uw-midsun/strategy_xv/blob/main/optimization/new_solar.py|smart-link]to mimic real-time changes to lat, longs. We want to calculate the *angle* at which the rays are hitting the flat cells over a period of time. This will then translate into the intensity of the suns rays which will allow for deciphering of how much energy the car is receiving.
 
 As a next step, we want to measure total energy changes over time interval and different locations.
 
@@ -315,9 +315,9 @@ I.E.
 ## Considering the Earth’s nature 
 # Correlation of the angle to intensity and then to energy input
 # Expand model to include multiple lat longs over a time-interval
-# Make csv - able",1.0,1.0
-Anh Mai Que,2022-11-05T11:11:15.221-0700,2023-09-09T12:19:48.328-0700,20888,https://uwmidsun.atlassian.net/browse/STRAT15-97,STRAT15-97,20879.0,In Progress,Story,Sunny Day,,1.0,1.0
-Alicia Bremer,2022-11-05T11:07:51.644-0700,2023-01-28T11:17:39.518-0800,20886,https://uwmidsun.atlassian.net/browse/STRAT15-95,STRAT15-95,20885.0,In-Review,Subtask,Car Class,"Explore previously done work related to Dynamics and the Car Class module. Expand on the code, eliminate redundancies and migrate code to new code base once refined. 
+# Make csv - able",1,1
+Anh Mai Que,2022-11-05T11:11:15.221-0700,2023-09-09T12:19:48.328-0700,20888,https://uwmidsun.atlassian.net/browse/STRAT15-97,STRAT15-97,20879,In Progress,Story,Sunny Day,,1,1
+Alicia Bremer,2022-11-05T11:07:51.644-0700,2023-01-28T11:17:39.518-0800,20886,https://uwmidsun.atlassian.net/browse/STRAT15-95,STRAT15-95,20885,In-Review,Subtask,Car Class,"Explore previously done work related to Dynamics and the Car Class module. Expand on the code, eliminate redundancies and migrate code to new code base once refined. 
 
 
 
@@ -325,9 +325,9 @@ Resources:
 
 [https://github.com/uw-midsun/strategy/blob/master/dynamics/car_model.py|https://github.com/uw-midsun/strategy/blob/master/dynamics/car_model.py|smart-link]
 
-[https://uwmidsun.atlassian.net/wiki/spaces/S/pages/2960031773/Dynamics+Model+2019|https://uwmidsun.atlassian.net/wiki/spaces/S/pages/2960031773/Dynamics+Model+2019|smart-link]",0.0,0.0
-,2022-11-05T11:07:28.582-0700,2023-01-16T07:42:48.361-0800,20885,https://uwmidsun.atlassian.net/browse/STRAT15-94,STRAT15-94,,To Do,Story,Car Class,,0.0,0.0
-Kevin Lau,2022-10-31T16:48:22.832-0700,2023-09-09T12:29:51.284-0700,20882,https://uwmidsun.atlassian.net/browse/STRAT15-91,STRAT15-91,20880.0,In Progress,Story,Storing data from CAN in DB,"*Procedure:*
+[https://uwmidsun.atlassian.net/wiki/spaces/S/pages/2960031773/Dynamics+Model+2019|https://uwmidsun.atlassian.net/wiki/spaces/S/pages/2960031773/Dynamics+Model+2019|smart-link]",0,0
+,2022-11-05T11:07:28.582-0700,2023-01-16T07:42:48.361-0800,20885,https://uwmidsun.atlassian.net/browse/STRAT15-94,STRAT15-94,,To Do,Story,Car Class,,0,0
+Kevin Lau,2022-10-31T16:48:22.832-0700,2023-09-09T12:29:51.284-0700,20882,https://uwmidsun.atlassian.net/browse/STRAT15-91,STRAT15-91,20880,In Progress,Story,Storing data from CAN in DB,"*Procedure:*
 
 Go through the sunstream repository and use the receiver functions to decode the data provided by the CAN. Then store the data in the provided database. 
 
@@ -335,40 +335,40 @@ Go through the sunstream repository and use the receiver functions to decode the
 
 [https://github.com/uw-midsun/sunstream|https://github.com/uw-midsun/sunstream|smart-link]
 
-[https://uwmidsun.atlassian.net/wiki/spaces/ELEC/pages/3157950471/Meeting+Notes+-+Strategy+x+FW|https://uwmidsun.atlassian.net/wiki/spaces/ELEC/pages/3157950471/Meeting+Notes+-+Strategy+x+FW|smart-link]",1.0,1.0
-Prabhav Khera,2022-10-29T11:17:34.181-0700,2023-01-16T07:48:28.011-0800,20880,https://uwmidsun.atlassian.net/browse/STRAT15-89,STRAT15-89,,In Progress,Epic,Sunstream Team,,1.0,1.0
-,2022-10-29T11:17:29.756-0700,2023-01-16T07:46:49.346-0800,20879,https://uwmidsun.atlassian.net/browse/STRAT15-88,STRAT15-88,,To Do,Epic,Sun Power Team,[https://uwmidsun.atlassian.net/wiki/spaces/S/pages/3176202241/SunPower+Tee-Up|https://uwmidsun.atlassian.net/wiki/spaces/S/pages/3176202241/SunPower+Tee-Up],0.0,0.0
-,2022-10-29T08:45:04.407-0700,2023-05-13T11:23:22.894-0700,20877,https://uwmidsun.atlassian.net/browse/STRAT15-86,STRAT15-86,20679.0,To Do,Story,Weather data to wind vector,"Migrate the code from the old repository for calculating and then plotting the wind and car vectors and getting the projection of the wind vector onto the car vector.
+[https://uwmidsun.atlassian.net/wiki/spaces/ELEC/pages/3157950471/Meeting+Notes+-+Strategy+x+FW|https://uwmidsun.atlassian.net/wiki/spaces/ELEC/pages/3157950471/Meeting+Notes+-+Strategy+x+FW|smart-link]",1,1
+Prabhav Khera,2022-10-29T11:17:34.181-0700,2023-01-16T07:48:28.011-0800,20880,https://uwmidsun.atlassian.net/browse/STRAT15-89,STRAT15-89,,In Progress,Epic,Sunstream Team,,1,1
+,2022-10-29T11:17:29.756-0700,2023-01-16T07:46:49.346-0800,20879,https://uwmidsun.atlassian.net/browse/STRAT15-88,STRAT15-88,,To Do,Epic,Sun Power Team,[https://uwmidsun.atlassian.net/wiki/spaces/S/pages/3176202241/SunPower+Tee-Up|https://uwmidsun.atlassian.net/wiki/spaces/S/pages/3176202241/SunPower+Tee-Up],0,0
+,2022-10-29T08:45:04.407-0700,2023-05-13T11:23:22.894-0700,20877,https://uwmidsun.atlassian.net/browse/STRAT15-86,STRAT15-86,20679,To Do,Story,Weather data to wind vector,"Migrate the code from the old repository for calculating and then plotting the wind and car vectors and getting the projection of the wind vector onto the car vector.
 
 *Additional Steps*
 
 * Determine what wind data is obtained from the new Weather API
 
-[https://github.com/uw-midsun/strategy/blob/master/dynamics/wind_model.py|https://github.com/uw-midsun/strategy/blob/master/dynamics/wind_model.py|smart-link]",0.0,0.0
-,2022-10-22T11:21:07.968-0700,2022-10-22T11:21:08.239-0700,20873,https://uwmidsun.atlassian.net/browse/STRAT15-84,STRAT15-84,20871.0,To Do,Subtask,Auxiliary Power Budget Migration ,,0.0,0.0
-Rodrigo Tiscareno,2022-10-22T11:20:04.587-0700,2022-10-29T11:20:22.018-0700,20872,https://uwmidsun.atlassian.net/browse/STRAT15-83,STRAT15-83,20871.0,In Progress,Subtask,Power Budget Update CSV,"*Requirements*
+[https://github.com/uw-midsun/strategy/blob/master/dynamics/wind_model.py|https://github.com/uw-midsun/strategy/blob/master/dynamics/wind_model.py|smart-link]",0,0
+,2022-10-22T11:21:07.968-0700,2022-10-22T11:21:08.239-0700,20873,https://uwmidsun.atlassian.net/browse/STRAT15-84,STRAT15-84,20871,To Do,Subtask,Auxiliary Power Budget Migration ,,0,0
+Rodrigo Tiscareno,2022-10-22T11:20:04.587-0700,2022-10-29T11:20:22.018-0700,20872,https://uwmidsun.atlassian.net/browse/STRAT15-83,STRAT15-83,20871,In Progress,Subtask,Power Budget Update CSV,"*Requirements*
 
 * Verify with hardware if there have been changes to the power budget. If so, obtain a new CSV file 
-* Update the current CSV file in the repository with the new one",1.0,1.0
-,2022-10-22T11:18:44.381-0700,2023-05-14T10:38:17.198-0700,20871,https://uwmidsun.atlassian.net/browse/STRAT15-82,STRAT15-82,20870.0,To Do,Story,Power Budget Investigation,The auxiliary losses model relies on a power budget supplied by hardware on the power consumption of their various boards. ,0.0,0.0
-Rodrigo Tiscareno,2022-10-22T11:16:51.141-0700,2022-11-19T21:45:32.435-0800,20870,https://uwmidsun.atlassian.net/browse/STRAT15-81,STRAT15-81,,To Do,Epic,Hardware Power Budget,,0.0,0.0
-,2022-10-22T09:33:50.352-0700,2022-10-22T09:40:00.531-0700,20868,https://uwmidsun.atlassian.net/browse/STRAT15-80,STRAT15-80,20818.0,To Do,Subtask,Calculate Binary Score of whether To Take a Loop,"Using the simulation of taking the loop, calculate the binary score of whether to take the loop following the same principles as the benefit cost score, except also taking into account the state at the end of the loop. Specifically, charge at the end of the loop and placement relative to other teams at the end of the loop.
+* Update the current CSV file in the repository with the new one",1,1
+,2022-10-22T11:18:44.381-0700,2023-05-14T10:38:17.198-0700,20871,https://uwmidsun.atlassian.net/browse/STRAT15-82,STRAT15-82,20870,To Do,Story,Power Budget Investigation,The auxiliary losses model relies on a power budget supplied by hardware on the power consumption of their various boards. ,0,0
+Rodrigo Tiscareno,2022-10-22T11:16:51.141-0700,2022-11-19T21:45:32.435-0800,20870,https://uwmidsun.atlassian.net/browse/STRAT15-81,STRAT15-81,,To Do,Epic,Hardware Power Budget,,0,0
+,2022-10-22T09:33:50.352-0700,2022-10-22T09:40:00.531-0700,20868,https://uwmidsun.atlassian.net/browse/STRAT15-80,STRAT15-80,20818,To Do,Subtask,Calculate Binary Score of whether To Take a Loop,"Using the simulation of taking the loop, calculate the binary score of whether to take the loop following the same principles as the benefit cost score, except also taking into account the state at the end of the loop. Specifically, charge at the end of the loop and placement relative to other teams at the end of the loop.
 
-Loops can be taken multiple times - so this binary score can be calculated after each loop.",0.0,0.0
-,2022-10-22T09:33:03.066-0700,2022-10-22T09:38:11.451-0700,20867,https://uwmidsun.atlassian.net/browse/STRAT15-79,STRAT15-79,20818.0,To Do,Subtask,Write Step Function to Simulate the Loop,"Simulate a car taking a loop, following the algorithm described below.
+Loops can be taken multiple times - so this binary score can be calculated after each loop.",0,0
+,2022-10-22T09:33:03.066-0700,2022-10-22T09:38:11.451-0700,20867,https://uwmidsun.atlassian.net/browse/STRAT15-79,STRAT15-79,20818,To Do,Subtask,Write Step Function to Simulate the Loop,"Simulate a car taking a loop, following the algorithm described below.
 
 [https://uwmidsun.atlassian.net/wiki/spaces/S/pages/3164504106/Live+Loops+Algorithm|https://uwmidsun.atlassian.net/wiki/spaces/S/pages/3164504106/Live+Loops+Algorithm|smart-link]
 
 For now, a placeholder car model can be used when taking each step - assume this includes the car’s max velocity, energy used for the step.
 
-Optimize over all variables [ideally].",0.0,0.0
-Kenneth Ruan,2022-09-27T16:30:15.457-0700,2022-11-12T11:00:29.934-0800,20841,https://uwmidsun.atlassian.net/browse/STRAT15-65,STRAT15-65,20839.0,Done,Subtask,Data Ingestion,"Create a function that hits the API and gathers data on the weather for the day, for the upcoming week, and for the general month (if feasible).
+Optimize over all variables [ideally].",0,0
+Kenneth Ruan,2022-09-27T16:30:15.457-0700,2022-11-12T11:00:29.934-0800,20841,https://uwmidsun.atlassian.net/browse/STRAT15-65,STRAT15-65,20839,Done,Subtask,Data Ingestion,"Create a function that hits the API and gathers data on the weather for the day, for the upcoming week, and for the general month (if feasible).
 
 ALSO, investigate and test the following repository. Test and migrate any code that may be relevant   
 
 
 
-[https://github.com/uw-midsun/strategy/tree/master/routemodel/data_retrieval|https://github.com/uw-midsun/strategy/tree/master/routemodel/data_retrieval|smart-link]",0.0,0.0
-Kenneth Ruan,2022-09-27T16:23:57.415-0700,2022-11-01T08:39:30.180-0700,20840,https://uwmidsun.atlassian.net/browse/STRAT15-64,STRAT15-64,20839.0,Done,Subtask,SPIKE: Research Weather API's - Investigate Data Source,"Investigate possible Weather API’s to use as a data source. 
+[https://github.com/uw-midsun/strategy/tree/master/routemodel/data_retrieval|https://github.com/uw-midsun/strategy/tree/master/routemodel/data_retrieval|smart-link]",0,0
+Kenneth Ruan,2022-09-27T16:23:57.415-0700,2022-11-01T08:39:30.180-0700,20840,https://uwmidsun.atlassian.net/browse/STRAT15-64,STRAT15-64,20839,Done,Subtask,SPIKE: Research Weather API's - Investigate Data Source,"Investigate possible Weather API’s to use as a data source. 
 
-Evaluate the type of data received to formulate a schema based on the API data. This should be described in a separate document (could be a Confluence page under the “Weather Model” Space. ",0.0,0.0
+Evaluate the type of data received to formulate a schema based on the API data. This should be described in a separate document (could be a Confluence page under the “Weather Model” Space. ",0,0
