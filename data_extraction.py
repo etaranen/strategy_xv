@@ -21,7 +21,11 @@ headers = {"Accept": "application/json"}
 query = {'jql': 'project = STRAT15', "maxResults":200}
 response = requests.get(url, params=query, headers=headers, auth=auth).text
 
+#save yesterday's data
+old_tickets = pd.read_csv('new_tickets.csv')
+old_tickets.to_csv('old_tickets.csv', index=False)
 
+#pull new data
 data = json.loads(response)
 data = data['issues']
 data = pd.json_normalize(data)
@@ -35,4 +39,4 @@ for i in range(len(automation_data)):
     link = f'https://uwmidsun.atlassian.net/browse/{key}'
     automation_data.replace(self, link, inplace = True)
 
-automation_data.to_csv(f'{datetime.date.today()}_tickets.csv', index=False)
+automation_data.to_csv('new_tickets.csv', index=False)

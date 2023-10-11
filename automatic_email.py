@@ -32,6 +32,13 @@ html = """\
 <html>
   <head>
     <style>
+        /* Define a CSS rule to change the font size of <p> elements */
+        p {{
+          font-size: 25px;
+          align-items: center;
+          height: 100px;
+        }}
+
       .nice-table {{
         font-family: Arial, sans-serif;
         font-size: 14px;
@@ -62,9 +69,16 @@ html = """\
     </style>
   </head>
   <body>
-    <p> Good morning team leads! <br>
-       Here is this week's ticket information: <br>
+    <p> 
+      <img src="https://i.ibb.co/MCW5j2d/midsun-logo.png" alt="Midnight Sun Logo"
+      width="50" 
+      height="50">
+      Midnight Sun Tickets - STRAT 15
     </p>
+    <p1>
+      Good morning team leads!
+      Here is this week's ticket information: <br>
+    </p1>
     <br />
     <p> Inactive Tickets </p>
     {inactive_tickets_html}
