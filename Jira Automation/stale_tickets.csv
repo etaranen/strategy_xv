@@ -1,0 +1,6 @@
+Name,Created,Updated,ID,Link,Key,Parent ID,Status,Issue Type,Summary,Description,Count,Streak
+,2023-01-16,2023-01-16,20925,https://uwmidsun.atlassian.net/browse/STRAT15-119,STRAT15-119,20918.0,To Do,Subtask,Dummy Data Generation / Testing / CI,,0.0,0.0
+,2023-01-16,2023-01-16,20924,https://uwmidsun.atlassian.net/browse/STRAT15-118,STRAT15-118,20918.0,To Do,Subtask,Schema/Table set-up automation,,0.0,0.0
+,2023-01-16,2023-01-16,20926,https://uwmidsun.atlassian.net/browse/STRAT15-120,STRAT15-120,20918.0,To Do,Subtask,Automation scripts to support database operations,,0.0,0.0
+,2023-01-16,2023-02-24,20927,https://uwmidsun.atlassian.net/browse/STRAT15-121,STRAT15-121,20918.0,In Progress,Subtask,Database Tutorials / Confluence Documentation,,0.0,0.0
+Prabhav Khera,2023-02-23,2023-03-18,20983,https://uwmidsun.atlassian.net/browse/STRAT15-137,STRAT15-137,20938.0,In Progress,Subtask,In person meetup to build basic script and test with arduino,,0.0,0.0

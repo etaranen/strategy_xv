@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 import json
 import csv
 import sqlalchemy
@@ -13,7 +14,7 @@ file.write(f'{dt.date.today()} - the script ran \n')
 
 current = dt.date.today()
 previous = current - dt.timedelta(days=1)
-stale_date = current - dt.timedelta(days=12)
+stale_date = current - dt.timedelta(days=7)
 
 current_data = pd.read_csv('new_tickets.csv')
 previous_data = pd.read_csv('old_tickets.csv')
@@ -34,6 +35,8 @@ for row in current_data.iterrows():
 
 # consecutive weekly progress and overall count- who has a streak, whos fastest overall
 current_data = current_data.merge(previous_data[['id','Count', 'Streak']], on='id',  how='left')
+current_data['Count'] = current_data['Count'].replace(np.nan, 0)
+current_data['Streak'] = current_data['Streak'].replace(np.nan, 0)
 current_data.to_csv('new_tickets.csv', index= False)
 
 for i in range(len(current_data)):
@@ -42,9 +45,7 @@ for i in range(len(current_data)):
     if current_data.loc[i, 'fields.status.name'] == 'In Progress':
         updated = current_data.loc[i, 'fields.updated']
         updated = datetime.strptime(updated[:10], '%Y-%m-%d').date()
-        if current_data.loc[i, 'Count'] == None:
-            current_data.loc[i, 'Count'] = 0
-            current_data.loc[i, 'Streak'] = 0            
+               
         if updated > previous:
             current_data.loc[i, 'Count'] += 1
             current_data.loc[i, 'Streak'] += 1
@@ -68,17 +69,18 @@ todo_tickets = current_data.loc[current_data['fields.status.name'] == 'To Do']
 
 
 # dataframe of stale tickets
-stale_tickets=current_data.loc[current_data['fields.status.name'].isin(['To Do', 'In Progress'])]
+stale_tickets = current_data.loc[current_data['fields.status.name'].isin(['To Do', 'In Progress'])]
+new_stale_tickets = pd.DataFrame()
 
-stale_tickets = stale_tickets.sort_values(by='Count', ascending=True)
+for i in range(0,len(stale_tickets)):
+    updated = stale_tickets.iloc[i, 2]
+    updated = datetime.strptime(updated[:10], '%Y-%m-%d').date()
+    if updated < stale_date:
+        ticket = stale_tickets.iloc[i]
+        new_stale_tickets = pd.concat([new_stale_tickets, ticket.to_frame().T], ignore_index = True)
+
+stale_tickets = new_stale_tickets.sort_values(by='fields.updated', ascending=True)
 stale_tickets = stale_tickets.head(5)
-
-# stale based on a date
-# for i in range(1, len(current_data)):
-#     updated = current_data.loc[i, 'fields.updated']
-#     updated = datetime.strptime(updated[:10], '%Y-%m-%d').date()
-#     if updated > stale_date:
-#         stale_tickets = stale_tickets.drop(labels=i, axis=0)
 
 stale_tickets = stale_tickets.rename(columns={'fields.assignee.displayName':'Name', 'fields.created': 'Created', 'fields.updated': 'Updated', 'id': 'ID', 'self': 'Link', 'key': 'Key', 'fields.parent.id' : 'Parent ID', 'fields.status.name' : 'Status', 'fields.issuetype.name' : 'Issue Type', 'fields.summary' : 'Summary', 'fields.description' : 'Description'})
 stale_tickets.to_csv('stale_tickets.csv', index=False)

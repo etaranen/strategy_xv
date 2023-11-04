@@ -1,0 +1,27 @@
+.nice-table {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #333;
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+  margin: 20px;
+}
+
+.nice-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  text-align: left;
+  padding: 8px;
+}
+
+.nice-table td {
+  padding: 8px;
+}
+
+.nice-table tr:hover {
+  background-color: #f9f9f9;
+}
+
+.nice-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}

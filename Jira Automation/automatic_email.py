@@ -79,7 +79,6 @@ html = """\
       Good morning team leads!
       Here is this week's ticket information: <br>
     </p1>
-    <br />
     <p> Inactive Tickets </p>
     {inactive_tickets_html}
     <br />    
